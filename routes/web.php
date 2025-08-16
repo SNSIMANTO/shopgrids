@@ -31,7 +31,23 @@ use App\Http\Controllers\Frontened\RegisterController;
 
 
 
+
 Route::get('/',[HomeController::class,'index']);
+// Route::get('/',[LoginController::class,'index']);
+// Route::get('/',[AboutUsController::class,'index']);
+// Route::get('/',[BlogGridSidebarController::class,'index']);
+// Route::get('/',[BlogSingleController::class,'index']);
+// Route::get('/',[BlogSingleSidebarController::class,'index']);
+// Route::get('/',[CartController::class,'index']);
+// Route::get('/',[CheckoutController::class,'index']);
+// Route::get('/',[CheckoutController::class,'index']);
+// Route::get('/',[ContactASController::class,'index']);
+// Route::get('/',[FaqController::class,'index']);
+// Route::get('/',[FourZeroFourController::class,'index']);
+// Route::get('/',[LoginController::class,'index']);
+// Route::get('/',[MailSuccessController::class,'index']);
+// Route::get('/',[ProductDetailsController::class,'index']);
+// Route::get('/',[ProductGridController::class,'index']);
+// Route::get('/',[ProductListController::class,'index']);
+// Route::get('/',[RegisterController::class,'index']);
 
-
-Route::get('/signin',[LoginController::class,'index']);

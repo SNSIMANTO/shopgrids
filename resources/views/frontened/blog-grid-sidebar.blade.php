@@ -30,7 +30,7 @@
 <div class="single-blog">
 <div class="blog-img">
 <a href="blog-single-sidebar.html">
-<img src="assets/images/blog/blog-1.jpg" alt="#">
+<img src="frontened/images/blog/blog-1.jpg" alt="#">
 </a>
 </div>
 <div class="blog-content">
@@ -52,7 +52,7 @@ incididunt.</p>
 <div class="single-blog">
 <div class="blog-img">
 <a href="blog-single-sidebar.html">
-<img src="assets/images/blog/blog-2.jpg" alt="#">
+<img src="frontened/images/blog/blog-2.jpg" alt="#">
 </a>
 </div>
 <div class="blog-content">
@@ -74,7 +74,7 @@ incididunt.</p>
 <div class="single-blog">
 <div class="blog-img">
 <a href="blog-single-sidebar.html">
-<img src="assets/images/blog/blog-3.jpg" alt="#">
+<img src="frontened/images/blog/blog-3.jpg" alt="#">
 </a>
 </div>
 <div class="blog-content">
@@ -98,7 +98,7 @@ incididunt.</p>
 <div class="single-blog">
 <div class="blog-img">
 <a href="blog-single-sidebar.html">
-<img src="assets/images/blog/blog-1.jpg" alt="#">
+<img src="frontened/images/blog/blog-1.jpg" alt="#">
 </a>
 </div>
 <div class="blog-content">
@@ -120,7 +120,7 @@ incididunt.</p>
 <div class="single-blog">
 <div class="blog-img">
 <a href="blog-single-sidebar.html">
-<img src="assets/images/blog/blog-2.jpg" alt="#">
+<img src="frontened/images/blog/blog-2.jpg" alt="#">
 </a>
 </div>
 <div class="blog-content">
@@ -142,7 +142,7 @@ incididunt.</p>
 <div class="single-blog">
 <div class="blog-img">
 <a href="blog-single-sidebar.html">
-<img src="assets/images/blog/blog-3.jpg" alt="#">
+<img src="frontened/images/blog/blog-3.jpg" alt="#">
 </a>
 </div>
 <div class="blog-content">
@@ -192,7 +192,7 @@ incididunt.</p>
 <div class="single-popular-feed">
 <div class="feed-desc">
 <a class="feed-img" href="blog-single-sidebar.html">
-<img src="assets/images/blog/blog-sidebar-1.jpg" alt="#">
+<img src="frontened/images/blog/blog-sidebar-1.jpg" alt="#">
 </a>
 <h6 class="post-title"><a href="blog-single-sidebar.html">What information is
 needed for shipping?</a></h6>
@@ -202,7 +202,7 @@ needed for shipping?</a></h6>
 <div class="single-popular-feed">
 <div class="feed-desc">
 <a class="feed-img" href="blog-single-sidebar.html">
-<img src="assets/images/blog/blog-sidebar-2.jpg" alt="#">
+<img src="frontened/images/blog/blog-sidebar-2.jpg" alt="#">
 </a>
 <h6 class="post-title"><a href="blog-single-sidebar.html">Interesting fact about
  gaming consoles</a></h6>
@@ -212,7 +212,7 @@ needed for shipping?</a></h6>
 <div class="single-popular-feed">
 <div class="feed-desc">
 <a class="feed-img" href="blog-single-sidebar.html">
-<img src="assets/images/blog/blog-sidebar-3.jpg" alt="#">
+<img src="frontened/images/blog/blog-sidebar-3.jpg" alt="#">
 </a>
 <h6 class="post-title"><a href="blog-single-sidebar.html">Electronics,
 instrumentation & control engineering </a></h6>

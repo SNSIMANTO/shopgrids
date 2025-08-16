@@ -29,14 +29,14 @@
 <div class="product-images">
 <main id="gallery">
 <div class="main-img">
-<img src="assets/images/product-details/01.jpg" id="current" alt="#">
+<img src="frontened/images/product-details/01.jpg" id="current" alt="#">
 </div>
 <div class="images">
-<img src="assets/images/product-details/01.jpg" class="img" alt="#">
-<img src="assets/images/product-details/02.jpg" class="img" alt="#">
-<img src="assets/images/product-details/03.jpg" class="img" alt="#">
-<img src="assets/images/product-details/04.jpg" class="img" alt="#">
-<img src="assets/images/product-details/05.jpg" class="img" alt="#">
+<img src="frontened/images/product-details/01.jpg" class="img" alt="#">
+<img src="frontened/images/product-details/02.jpg" class="img" alt="#">
+<img src="frontened/images/product-details/03.jpg" class="img" alt="#">
+<img src="frontened/images/product-details/04.jpg" class="img" alt="#">
+<img src="frontened/images/product-details/05.jpg" class="img" alt="#">
 </div>
 </main>
 </div>
@@ -237,7 +237,7 @@ tempor...</p>
 
 
 <div class="single-review">
-<img src="assets/images/blog/comment2.jpg" alt="#">
+<img src="frontened/images/blog/comment2.jpg" alt="#">
 <div class="review-info">
 <h4>My husband love his new...
 <span>Alex Jaza
@@ -257,7 +257,7 @@ tempor...</p>
 
 
 <div class="single-review">
-<img src="assets/images/blog/comment3.jpg" alt="#">
+<img src="frontened/images/blog/comment3.jpg" alt="#">
 <div class="review-info">
 <h4>I love the built quality...
 <span>Jacob Hammond

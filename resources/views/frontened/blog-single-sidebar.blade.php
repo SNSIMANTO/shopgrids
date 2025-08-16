@@ -28,7 +28,7 @@
 <div class="post-details">
 <div class="main-content-head">
 <div class="post-thumbnils">
-<img src="assets/images/blog/blog-single.jpg" alt="#">
+<img src="frontened/images/blog/blog-single.jpg" alt="#">
 </div>
 <div class="meta-information">
 <h2 class="post-title">
@@ -184,7 +184,7 @@ dolor in reprehenderit. </p>
 <ul class="comments-list">
 <li>
 <div class="comment-img">
- <img src="assets/images/blog/comment1.jpg" alt="img">
+ <img src="frontened/images/blog/comment1.jpg" alt="img">
 </div>
 <div class="comment-desc">
 <div class="desc-top">
@@ -203,7 +203,7 @@ condimentum.
 </li>
 <li class="children">
 <div class="comment-img">
-<img src="assets/images/blog/comment2.jpg" alt="img">
+<img src="frontened/images/blog/comment2.jpg" alt="img">
 </div>
 <div class="comment-desc">
 <div class="desc-top">
@@ -219,7 +219,7 @@ tempor incididunt ut labore et dolore magna aliqua. Ut enim.
 </li>
 <li>
 <div class="comment-img">
-<img src="assets/images/blog/comment3.jpg" alt="img">
+<img src="frontened/images/blog/comment3.jpg" alt="img">
 </div>
 <div class="comment-desc">
 <div class="desc-top">
@@ -294,7 +294,7 @@ veniam.
 <div class="single-popular-feed">
 <div class="feed-desc">
 <a class="feed-img" href="blog-single-sidebar.html">
-<img src="assets/images/blog/blog-sidebar-1.jpg" alt="#">
+<img src="frontened/images/blog/blog-sidebar-1.jpg" alt="#">
 </a>
  <h6 class="post-title"><a href="blog-single-sidebar.html">What information is
 needed for shipping?</a></h6>
@@ -304,7 +304,7 @@ needed for shipping?</a></h6>
 <div class="single-popular-feed">
 <div class="feed-desc">
 <a class="feed-img" href="blog-single-sidebar.html">
-<img src="assets/images/blog/blog-sidebar-2.jpg" alt="#">
+<img src="frontened/images/blog/blog-sidebar-2.jpg" alt="#">
 </a>
 <h6 class="post-title"><a href="blog-single-sidebar.html">Interesting fact about
 gaming consoles</a></h6>
@@ -314,7 +314,7 @@ gaming consoles</a></h6>
 <div class="single-popular-feed">
 <div class="feed-desc">
 <a class="feed-img" href="blog-single-sidebar.html">
-<img src="assets/images/blog/blog-sidebar-3.jpg" alt="#">
+<img src="frontened/images/blog/blog-sidebar-3.jpg" alt="#">
 </a>
 <h6 class="post-title"><a href="blog-single-sidebar.html">Electronics,
 instrumentation & control engineering </a></h6>

@@ -73,7 +73,7 @@
 <div class="col-lg-4 col-md-4 col-12">
 <div class="top-middle">
 <ul class="useful-links">
-<li><a href="{{url('resources/views/frontened/index.html')}}">Home</a></li>
+<li><a href="{{url('/')}}">Home</a></li>
 <li><a href="{{url('resources/views/frontened/about-us.html')}}">About Us</a></li>
 <li><a href="{{url('resources/views/frontened/contact.html')}}">Contact Us</a></li>
 </ul>

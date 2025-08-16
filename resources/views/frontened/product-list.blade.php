@@ -223,7 +223,7 @@ Panasonic (74)
 
 <div class="single-product">
 <div class="product-image">
-<img src="assets/images/products/product-2.jpg" alt="#">
+<img src="frontened/images/products/product-2.jpg" alt="#">
 <span class="sale-tag">-25%</span>
 <div class="button">
 <a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
@@ -254,7 +254,7 @@ Panasonic (74)
 
 <div class="single-product">
 <div class="product-image">
-<img src="assets/images/products/product-3.jpg" alt="#">
+<img src="frontened/images/products/product-3.jpg" alt="#">
 <div class="button">
 <a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
 </div>
@@ -283,7 +283,7 @@ Panasonic (74)
 
 <div class="single-product">
 <div class="product-image">
-<img src="assets/images/products/product-4.jpg" alt="#">
+<img src="frontened/images/products/product-4.jpg" alt="#">
 <span class="new-tag">New</span>
 <div class="button">
 <a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
@@ -313,7 +313,7 @@ Panasonic (74)
 
 <div class="single-product">
 <div class="product-image">
-<img src="assets/images/products/product-5.jpg" alt="#">
+<img src="frontened/images/products/product-5.jpg" alt="#">
 <div class="button">
 <a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
 </div>
@@ -342,7 +342,7 @@ Panasonic (74)
 
 <div class="single-product">
 <div class="product-image">
-<img src="assets/images/products/product-6.jpg" alt="#">
+<img src="frontened/images/products/product-6.jpg" alt="#">
 <div class="button">
 <a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
 </div>
@@ -371,7 +371,7 @@ Panasonic (74)
 
 <div class="single-product">
 <div class="product-image">
-<img src="assets/images/products/product-7.jpg" alt="#">
+<img src="frontened/images/products/product-7.jpg" alt="#">
 <span class="sale-tag">-50%</span>
 <div class="button">
 <a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
@@ -402,7 +402,7 @@ Panasonic (74)
 
 <div class="single-product">
 <div class="product-image">
-<img src="assets/images/products/product-8.jpg" alt="#">
+<img src="frontened/images/products/product-8.jpg" alt="#">
 <div class="button">
 <a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
 </div>
@@ -431,7 +431,7 @@ Panasonic (74)
 
 <div class="single-product">
 <div class="product-image">
-<img src="assets/images/products/product-2.jpg" alt="#">
+<img src="frontened/images/products/product-2.jpg" alt="#">
 <span class="sale-tag">-25%</span>
 <div class="button">
 <a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
@@ -483,7 +483,7 @@ Panasonic (74)
 <div class="row align-items-center">
 <div class="col-lg-4 col-md-4 col-12">
 <div class="product-image">
-<img src="assets/images/products/product-1.jpg" alt="#">
+<img src="frontened/images/products/product-1.jpg" alt="#">
 <div class="button">
 <a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to
 Cart</a>
@@ -519,7 +519,7 @@ Cart</a>
 <div class="row align-items-center">
 <div class="col-lg-4 col-md-4 col-12">
 <div class="product-image">
-<img src="assets/images/products/product-2.jpg" alt="#">
+<img src="frontened/images/products/product-2.jpg" alt="#">
 <span class="sale-tag">-25%</span>
 <div class="button">
 <a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to
@@ -557,7 +557,7 @@ Cart</a>
 <div class="row align-items-center">
 <div class="col-lg-4 col-md-4 col-12">
 <div class="product-image">
-<img src="assets/images/products/product-3.jpg" alt="#">
+<img src="frontened/images/products/product-3.jpg" alt="#">
 <div class="button">
 <a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to
 Cart</a>
@@ -593,7 +593,7 @@ Cart</a>
 <div class="row align-items-center">
 <div class="col-lg-4 col-md-4 col-12">
 <div class="product-image">
-<img src="assets/images/products/product-4.jpg" alt="#">
+<img src="frontened/images/products/product-4.jpg" alt="#">
 <span class="new-tag">New</span>
 <div class="button">
 <a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to

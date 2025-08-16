@@ -8,11 +8,11 @@
 <title>404 Error - ShopGrids Bootstrap 5 eCommerce HTML Template.</title>
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg" />
+<link rel="shortcut icon" type="image/x-icon" href="frontened/images/favicon.svg" />
 
-<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-<link rel="stylesheet" href="assets/css/LineIcons.3.0.css" />
-<link rel="stylesheet" href="assets/css/main.css" />
+<link rel="stylesheet" href="frontened/css/bootstrap.min.css" />
+<link rel="stylesheet" href="frontened/css/LineIcons.3.0.css" />
+<link rel="stylesheet" href="frontened/css/main.css" />
 </head>
 <body>
 <!--[if lte IE 9]>
@@ -51,7 +51,7 @@
 </div>
 
 
-<script src="assets/js/bootstrap.min.js"></script>
+<script src="frontened/js/bootstrap.min.js"></script>
 <script>
     window.onload = function () {
       window.setTimeout(fadeout, 500);

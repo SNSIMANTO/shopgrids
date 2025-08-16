@@ -51,7 +51,7 @@
 <div class="cart-single-list">
 <div class="row align-items-center">
 <div class="col-lg-1 col-md-1 col-12">
-<a href="product-details.html"><img src="assets/images/cart/01.jpg" alt="#"></a>
+<a href="product-details.html"><img src="frontened/images/cart/01.jpg" alt="#"></a>
 </div>
 <div class="col-lg-4 col-md-3 col-12">
 <h5 class="product-name"><a href="product-details.html">
@@ -88,7 +88,7 @@ Canon EOS M50 Mirrorless Camera</a></h5>
 <div class="cart-single-list">
 <div class="row align-items-center">
 <div class="col-lg-1 col-md-1 col-12">
-<a href="product-details.html"><img src="assets/images/cart/02.jpg" alt="#"></a>
+<a href="product-details.html"><img src="frontened/images/cart/02.jpg" alt="#"></a>
 </div>
 <div class="col-lg-4 col-md-3 col-12">
 <h5 class="product-name"><a href="product-details.html">
@@ -125,7 +125,7 @@ Apple iPhone X 256 GB Space Gray</a></h5>
 <div class="cart-single-list">
 <div class="row align-items-center">
 <div class="col-lg-1 col-md-1 col-12">
-<a href="product-details.html"><img src="assets/images/cart/03.jpg" alt="#"></a>
+<a href="product-details.html"><img src="frontened/images/cart/03.jpg" alt="#"></a>
 </div>
 <div class="col-lg-4 col-md-3 col-12">
 <h5 class="product-name"><a href="product-details.html">HP LaserJet Pro Laser Printer</a></h5>

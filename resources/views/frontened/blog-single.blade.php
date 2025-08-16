@@ -30,7 +30,7 @@
 <div class="post-details">
 <div class="main-content-head">
 <div class="post-thumbnils">
-<img src="assets/images/blog/blog-single.jpg" alt="#">
+<img src="frontened/images/blog/blog-single.jpg" alt="#">
 </div>
 <div class="meta-information">
 <h2 class="post-title">
@@ -186,7 +186,7 @@ dolor in reprehenderit. </p>
 <ul class="comments-list">
 <li>
 <div class="comment-img">
- <img src="assets/images/blog/comment1.jpg" alt="img">
+ <img src="frontened/images/blog/comment1.jpg" alt="img">
 </div>
 <div class="comment-desc">
 <div class="desc-top">
@@ -205,7 +205,7 @@ condimentum.
 </li>
 <li class="children">
 <div class="comment-img">
-<img src="assets/images/blog/comment2.jpg" alt="img">
+<img src="frontened/images/blog/comment2.jpg" alt="img">
 </div>
 <div class="comment-desc">
 <div class="desc-top">
@@ -221,7 +221,7 @@ tempor incididunt ut labore et dolore magna aliqua. Ut enim.
 </li>
 <li>
 <div class="comment-img">
-<img src="assets/images/blog/comment3.jpg" alt="img">
+<img src="frontened/images/blog/comment3.jpg" alt="img">
 </div>
 <div class="comment-desc">
 <div class="desc-top">

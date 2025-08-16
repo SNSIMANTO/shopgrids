@@ -212,7 +212,7 @@ Option</h6>
 <div class="single-payment-option">
 <input type="radio" name="shipping" checked id="shipping-1">
 <label for="shipping-1">
-<img src="assets/images/shipping/shipping-1.png" alt="Sipping">
+<img src="frontened/images/shipping/shipping-1.png" alt="Sipping">
 <p>Standerd Shipping</p>
 <span class="price">$10.50</span>
 </label>
@@ -220,7 +220,7 @@ Option</h6>
 <div class="single-payment-option">
 <input type="radio" name="shipping" id="shipping-2">
 <label for="shipping-2">
-<img src="assets/images/shipping/shipping-2.png" alt="Sipping">
+<img src="frontened/images/shipping/shipping-2.png" alt="Sipping">
 <p>Standerd Shipping</p>
 <span class="price">$10.50</span>
 </label>
@@ -228,7 +228,7 @@ Option</h6>
 <div class="single-payment-option">
 <input type="radio" name="shipping" id="shipping-3">
 <label for="shipping-3">
-<img src="assets/images/shipping/shipping-3.png" alt="Sipping">
+<img src="frontened/images/shipping/shipping-3.png" alt="Sipping">
 <p>Standerd Shipping</p>
 <span class="price">$10.50</span>
 </label>
@@ -236,7 +236,7 @@ Option</h6>
 <div class="single-payment-option">
 <input type="radio" name="shipping" id="shipping-4">
 <label for="shipping-4">
-<img src="assets/images/shipping/shipping-4.png" alt="Sipping">
+<img src="frontened/images/shipping/shipping-4.png" alt="Sipping">
 <p>Standerd Shipping</p>
 <span class="price">$10.50</span>
 </label>
@@ -269,7 +269,7 @@ Option</h6>
 <label>Card Number</label>
 <div class="form-input form">
 <input id="credit-input" type="text" placeholder="0000 0000 0000 0000">
-<img src="assets/images/payment/card.png" alt="card">
+<img src="frontened/images/payment/card.png" alt="card">
 </div>
 </div>
  <div class="payment-card-info">
@@ -345,7 +345,7 @@ Option</h6>
 </div>
 <div class="checkout-sidebar-banner mt-30">
 <a href="product-grids.html">
-<img src="assets/images/banner/banner.jpg" alt="#">
+<img src="frontened/images/banner/banner.jpg" alt="#">
 </a>
 </div>
 </div>

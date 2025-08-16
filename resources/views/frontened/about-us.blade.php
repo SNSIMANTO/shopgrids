@@ -24,7 +24,7 @@
 <div class="row align-items-center">
 <div class="col-lg-6 col-md-12 col-12">
 <div class="content-left">
-<img src="assets/images/about/about-img.jpg" alt="#">
+<img src="frontened/images/about/about-img.jpg" alt="#">
 <a href="https://www.youtube.com/watch?v=r44RKWyfcFw&amp;fbclid=IwAR21beSJORalzmzokxDRcGfkZA1AtRTE__l5N4r09HcGS5Y6vOluyouM9EM" class="glightbox video"><i class="lni lni-play"></i></a>
 </div>
 </div>
@@ -63,7 +63,7 @@ Ipsum available, but the majority have suffered alteration in some form.</p>
 
 <div class="single-team">
 <div class="image">
-<img src="assets/images/team/01.jpg" alt="#">
+<img src="frontened/images/team/01.jpg" alt="#">
 </div>
 <div class="content">
 <div class="info">
@@ -86,7 +86,7 @@ Ipsum available, but the majority have suffered alteration in some form.</p>
 
 <div class="single-team">
 <div class="image">
-<img src="assets/images/team/02.jpg" alt="#">
+<img src="frontened/images/team/02.jpg" alt="#">
 </div>
 <div class="content">
 <div class="info">
@@ -109,7 +109,7 @@ Ipsum available, but the majority have suffered alteration in some form.</p>
 
 <div class="single-team">
 <div class="image">
-<img src="assets/images/team/03.jpg" alt="#">
+<img src="frontened/images/team/03.jpg" alt="#">
 </div>
 <div class="content">
 <div class="info">
@@ -132,7 +132,7 @@ Ipsum available, but the majority have suffered alteration in some form.</p>
 
 <div class="single-team">
 <div class="image">
-<img src="assets/images/team/04.jpg" alt="#">
+<img src="frontened/images/team/04.jpg" alt="#">
 </div>
 <div class="content">
 <div class="info">
