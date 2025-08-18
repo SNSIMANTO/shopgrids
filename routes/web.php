@@ -33,21 +33,21 @@ use App\Http\Controllers\Frontened\RegisterController;
 
 
 Route::get('/',[HomeController::class,'index']);
-// Route::get('/',[LoginController::class,'index']);
-// Route::get('/',[AboutUsController::class,'index']);
-// Route::get('/',[BlogGridSidebarController::class,'index']);
-// Route::get('/',[BlogSingleController::class,'index']);
-// Route::get('/',[BlogSingleSidebarController::class,'index']);
-// Route::get('/',[CartController::class,'index']);
+Route::get('/signin',[LoginController::class,'index']);
+Route::get('/aboutus',[AboutUsController::class,'index']);
+Route::get('//blog-grid-sidebar',[BlogGridSidebarController::class,'index']);
+Route::get('/blog-single',[BlogSingleController::class,'index']);
+Route::get('/blog-single-sidebar',[BlogSingleSidebarController::class,'index']);
+Route::get('/ViewCart',[CartController::class,'index']);        //cart.html
+Route::get('/checkout',[CheckoutController::class,'index']);
 // Route::get('/',[CheckoutController::class,'index']);
-// Route::get('/',[CheckoutController::class,'index']);
-// Route::get('/',[ContactASController::class,'index']);
-// Route::get('/',[FaqController::class,'index']);
-// Route::get('/',[FourZeroFourController::class,'index']);
+Route::get('/contact',[ContactASController::class,'index']);
+Route::get('/Faq',[FaqController::class,'index']);
+Route::get('/FourZeroFour',[FourZeroFourController::class,'index']);
 // Route::get('/',[LoginController::class,'index']);
-// Route::get('/',[MailSuccessController::class,'index']);
-// Route::get('/',[ProductDetailsController::class,'index']);
-// Route::get('/',[ProductGridController::class,'index']);
-// Route::get('/',[ProductListController::class,'index']);
-// Route::get('/',[RegisterController::class,'index']);
+Route::get('/mailsuccess',[MailSuccessController::class,'index']);
+Route::get('/product-details',[ProductDetailsController::class,'index']);
+Route::get('/ProductGrid',[ProductGridController::class,'index']);
+Route::get('/ProductList',[ProductListController::class,'index']);
+Route::get('/register',[RegisterController::class,'index']);
 

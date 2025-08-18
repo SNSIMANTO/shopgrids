@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 class BlogGridSidebarController extends Controller
 {
      public function index(){
+        return view('frontened.blog-grid-sidebar');
 
     }
 }

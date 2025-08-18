@@ -73,9 +73,9 @@
 <div class="col-lg-4 col-md-4 col-12">
 <div class="top-middle">
 <ul class="useful-links">
-<li><a href="{{url('/')}}">Home</a></li>
-<li><a href="{{url('resources/views/frontened/about-us.html')}}">About Us</a></li>
-<li><a href="{{url('resources/views/frontened/contact.html')}}">Contact Us</a></li>
+<li><a  href="{{url('/')}}">Home</a></li>
+<li><a href="{{url('/aboutus')}}">About Us</a></li>
+<li><a href="{{url('/contact')}}">Contact Us</a></li>
 </ul>
 </div>
 </div>
@@ -87,10 +87,10 @@ Hello
 </div>
 <ul class="user-login">
 <li>
-<a href="{{url('resources/views/frontened/login.html')}}">Sign In</a>
+<a href="{{url('/signin')}}">Sign In</a>
 </li>
 <li>
-<a href="{{url('resources/views/frontened/register.html')}}">Register</a>
+<a href="{{url('/register')}}">Register</a>
 </li>
 </ul>
 </div>
@@ -105,7 +105,7 @@ Hello
 <div class="row align-items-center">
 <div class="col-lg-3 col-md-3 col-7">
 
-<a class="navbar-brand" href="{{url('resources/views/frontened/index.html')}}">
+<a class="navbar-brand" href="{{url('/')}}">
 <img src="{{asset('frontened/images/logo/logo.svg')}}" alt="Logo">
 </a>
 
@@ -162,16 +162,16 @@ Hello
  <div class="shopping-item">
 <div class="dropdown-cart-header">
 <span>2 Items</span>
-<a href="cart.html">View Cart</a>
+<a href="{{url('/ViewCart')}}">View Cart</a>
 </div>
 <ul class="shopping-list">
 <li>
 <a href="javascript:void(0)" class="remove" title="Remove this item"><i class="lni lni-close"></i></a>
 <div class="cart-img-head">
-<a class="cart-img" href="product-details.html"><img src="{{asset('frontened/images/header/cart-items/item1.jpg')}}" alt="#"></a>
+<a class="cart-img" href="{{('/product-details')}}"><img src="{{asset('frontened/images/header/cart-items/item1.jpg')}}" alt="#"></a>
 </div>
 <div class="content">
-<h4><a href="product-details.html">
+<h4><a href="{{url('/product-details')}}">
 Apple Watch Series 6</a></h4>
 <p class="quantity">1x - <span class="amount">$99.00</span></p>
 </div>
@@ -179,10 +179,10 @@ Apple Watch Series 6</a></h4>
 <li>
 <a href="javascript:void(0)" class="remove" title="Remove this item"><i class="lni lni-close"></i></a>
 <div class="cart-img-head">
-<a class="cart-img" href="{{url('resources/views/frontened/product-details.html')}}"><img src="{{asset('frontened/images/header/cart-items/item2.jpg')}}" alt="#"></a>
+<a class="cart-img" href="{{url('resources/views/frontened/product-details')}}"><img src="{{asset('frontened/images/header/cart-items/item2.jpg')}}" alt="#"></a>
 </div>
 <div class="content">
-<h4><a href="{{url('resources/views/frontened/product-details.html')}}">Wi-Fi Smart Camera</a></h4>
+<h4><a href="{{url('resources/views/frontened/product-details')}}">Wi-Fi Smart Camera</a></h4>
 <p class="quantity">1x - <span class="amount">$35.00</span></p>
 </div>
 </li>
@@ -193,7 +193,7 @@ Apple Watch Series 6</a></h4>
 <span class="total-amount">$134.00</span>
 </div>
 <div class="button">
-<a href="{{url('resources/views/frontened/checkout.html')}}" class="btn animate">Checkout</a>
+<a href="{{url('/checkout')}}" class="btn animate">Checkout</a>
 </div>
 </div>
 </div>
@@ -215,31 +215,31 @@ Apple Watch Series 6</a></h4>
 <div class="mega-category-menu">
 <span class="cat-button"><i class="lni lni-menu"></i>All Categories</span>
 <ul class="sub-category">
-<li><a href="{{url('resources/views/frontened/product-grids.html')}}">Electronics <i class="lni lni-chevron-right"></i></a>
+<li><a href="{{url('/product-grids')}}">Electronics <i class="lni lni-chevron-right"></i></a>
  <ul class="inner-sub-category">
-<li><a href="{{url('resources/views/frontened/product-grids.html')}}">Digital Cameras</a></li>
-<li><a href="{{url('resources/views/frontened/product-grids.html')}}">Camcorders</a></li>
-<li><a href="{{url('resources/views/frontened/product-grids.html')}}">Camera Drones</a></li>
-<li><a href="{{url('resources/views/frontened/product-grids.html')}}">Smart Watches</a></li>
-<li><a href="{{url('resources/views/frontened/product-grids.html')}}">Headphones</a></li>
-<li><a href="{{url('resources/views/frontened/product-grids.html')}}">MP3 Players</a></li>
-<li><a href="{{url('resources/views/frontened/product-grids.html')}}">Microphones</a></li>
-<li><a href="{{url('resources/views/frontened/product-grids.html')}}">Chargers</a></li>
-<li><a href="{{url('resources/views/frontened/product-grids.html')}}">Batteries</a></li>
-<li><a href="{{url('resources/views/frontened/product-grids.html')}}">Cables & Adapters</a></li>
+<li><a href="{{url('/product-grids')}}">Digital Cameras</a></li>
+<li><a href="{{url('/product-grids')}}">Camcorders</a></li>
+<li><a href="{{url('/product-grids')}}">Camera Drones</a></li>
+<li><a href="{{url('/product-grids')}}">Smart Watches</a></li>
+<li><a href="{{url('/product-grids')}}">Headphones</a></li>
+<li><a href="{{url('/product-grids')}}">MP3 Players</a></li>
+<li><a href="{{url('/product-grids')}}">Microphones</a></li>
+<li><a href="{{url('/product-grids')}}">Chargers</a></li>
+<li><a href="{{url('/product-grids')}}">Batteries</a></li>
+<li><a href="{{url('/product-grids')}}">Cables & Adapters</a></li>
 </ul>
 </li>
-<li><a href="{{url('resources/views/frontened/product-grids.html')}}">accessories</a></li>
-<li><a href="{{url('resources/views/frontened/product-grids.html')}}">Televisions</a></li>
-<li><a href="{{url('resources/views/frontened/product-grids.html')}}">best selling</a></li>
-<li><a href="{{url('resources/views/frontened/product-grids.html')}}">top 100 offer</a></li>
-<li><a href="{{url('resources/views/frontened/product-grids.html')}}">sunglass</a></li>
-<li><a href="{{url('resources/views/frontened/product-grids.html')}}">watch</a></li>
-<li><a href="{{url('resources/views/frontened/product-grids.html')}}">man’s product</a></li>
-<li><a href="{{url('resources/views/frontened/product-grids.html')}}">Home Audio & Theater</a></li>
-<li><a href="{{url('resources/views/frontened/product-grids.html')}}">Computers & Tablets </a></li>
-<li><a href="{{url('resources/views/frontened/product-grids.html')}}">Video Games </a></li>
-<li><a href="{{url('resources/views/frontened/product-grids.html')}}">Home Appliances </a></li>
+<li><a href="{{url('/product-grids')}}">accessories</a></li>
+<li><a href="{{url('/product-grids')}}">Televisions</a></li>
+<li><a href="{{url('/product-grids')}}">best selling</a></li>
+<li><a href="{{url('/product-grids')}}">top 100 offer</a></li>
+<li><a href="{{url('/product-grids')}}">sunglass</a></li>
+<li><a href="{{url('/product-grids')}}">watch</a></li>
+<li><a href="{{url('/product-grids')}}">man’s product</a></li>
+<li><a href="{{url('/product-grids')}}">Home Audio & Theater</a></li>
+<li><a href="{{url('/product-grids')}}">Computers & Tablets </a></li>
+<li><a href="{{url('/product-grids')}}">Video Games </a></li>
+<li><a href="{{url('/product-grids')}}">Home Appliances </a></li>
 </ul>
 </div>
 
@@ -253,42 +253,42 @@ Apple Watch Series 6</a></h4>
 <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
 <ul id="nav" class="navbar-nav ms-auto">
 <li class="nav-item">
-<a href="index.html" aria-label="Toggle navigation">Home</a>
+<a href="{{url('/')}}" aria-label="Toggle navigation">Home</a>
 </li>
 <li class="nav-item">
 <a class="dd-menu collapsed" href="javascript:void(0)" data-bs-toggle="collapse" data-bs-target="#submenu-1-2" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">Pages</a>
 <ul class="sub-menu collapse" id="submenu-1-2">
-<li class="nav-item"><a href="{{url('resources/views/frontened/about-us.html')}}">About Us</a></li>
-<li class="nav-item"><a href="{{url('resources/views/frontened/faq.html')}}">Faq</a></li>
-<li class="nav-item"><a href="{{url('resources/views/frontened/login.html')}}">Login</a></li>
-<li class="nav-item"><a href="{{url('resources/views/frontened/register.html')}}">Register</a></li>
-<li class="nav-item"><a href="{{url('resources/views/frontened/mail-success.html')}}">Mail Success</a></li>
-<li class="nav-item"><a href="{{url('resources/views/frontened/404.html')}}">404 Error</a></li>
+<li class="nav-item"><a href="{{url('/aboutus')}}">About Us</a></li>
+<li class="nav-item"><a href="{{url('/Faq')}}">Faq</a></li>
+<li class="nav-item"><a href="{{url('/signin')}}">Login</a></li>
+<li class="nav-item"><a href="{{url('/register')}}">Register</a></li>
+<li class="nav-item"><a href="{{url('/mailsuccess')}}">Mail Success</a></li>
+<li class="nav-item"><a href="{{url('/FourZeroFour')}}">404 Error</a></li>
 </ul>
 </li>
 <li class="nav-item">
 <a class="dd-menu collapsed" href="javascript:void(0)" data-bs-toggle="collapse" data-bs-target="#submenu-1-3" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">Shop</a>
 <ul class="sub-menu collapse" id="submenu-1-3">
-<li class="nav-item"><a href="{{url('resources/views/frontened/product-grids.html')}}">Shop Grid</a></li>
-<li class="nav-item"><a href="{{url('resources/views/frontened/product-list.html')}}">Shop List</a></li>
-<li class="nav-item"><a href="{{url('resources/views/frontened/product-details.html')}}">shop Single</a></li>
-<li class="nav-item"><a href="{{url('resources/views/frontened/cart.html')}}">Cart</a></li>
-<li class="nav-item"><a href="{{url('resources/views/frontened/checkout.html')}}">Checkout</a></li>
+<li class="nav-item"><a href="{{url('/ProductGrid')}}">Shop Grid</a></li>
+<li class="nav-item"><a href="{{url('/ProductList')}}">Shop List</a></li>
+<li class="nav-item"><a href="{{url('/product-details')}}">shop Single</a></li>
+<li class="nav-item"><a href="{{url('/ViewCart')}}">Cart</a></li>
+<li class="nav-item"><a href="{{url('/checkout')}}">Checkout</a></li>
 </ul>
 </li>
 <li class="nav-item">
 <a class="dd-menu active collapsed" href="javascript:void(0)" data-bs-toggle="collapse" data-bs-target="#submenu-1-4" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">Blog</a>
 <ul class="sub-menu collapse" id="submenu-1-4">
-<li class="nav-item active"><a href="{{url('resources/views/frontened/blog-grid-sidebar.html')}}">Blog Grid
+<li class="nav-item active"><a href="{{url('/blog-grid-sidebar')}}">Blog Grid
 Sidebar</a>
 </li>
-<li class="nav-item"><a href="{{url('resources/views/frontened/blog-single.html')}}">Blog Single</a></li>
-<li class="nav-item"><a href="{{url('resources/views/frontened/blog-single-sidebar.html')}}">Blog Single
+<li class="nav-item"><a href="{{url('/blog-single')}}">Blog Single</a></li>
+<li class="nav-item"><a href="{{url('/blog-single-sidebar')}}">Blog Single
 Sibebar</a></li>
 </ul>
 </li>
 <li class="nav-item">
-<a href="{{url('resources/views/frontened/contact.html')}}" aria-label="Toggle navigation">Contact Us</a>
+<a href="{{url('/contact')}}" aria-label="Toggle navigation">Contact Us</a>
 </li>
 </ul>
 </div>

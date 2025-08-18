@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 class MailSuccessController extends Controller
 {
      public function index(){
+        return view('frontened.mail-success');
 
     }
 }

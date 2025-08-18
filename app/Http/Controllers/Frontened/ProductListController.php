@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 class ProductListController extends Controller
 {
      public function index(){
+        return view('frontened.product-list');
 
     }
 }
