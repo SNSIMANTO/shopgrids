@@ -11,7 +11,7 @@
 </div>
 <div class="col-lg-6 col-md-6 col-12">
 <ul class="breadcrumb-nav">
-<li><a href="index.html"><i class="lni lni-home"></i> Home</a></li>
+<li><a href="{{url('/')}}"><i class="lni lni-home"></i> Home</a></li>
 <li>Login</li>
 </ul>
 </div>
@@ -56,12 +56,12 @@ login</a></div>
 <input type="checkbox" class="form-check-input width-auto" id="exampleCheck1">
 <label class="form-check-label">Remember me</label>
 </div>
-<a class="lost-pass" href="account-password-recovery.html">Forgot password?</a>
+<a class="lost-pass" href="{{url('/password-recovery')}}">Forgot password?</a>
 </div>
 <div class="button">
 <button class="btn" type="submit">Login</button>
 </div>
-<p class="outer-link">Don't have an account? <a href="register.html">Register here </a>
+<p class="outer-link">Don't have an account? <a href="{{url('/register')}}">Register here </a>
 </p>
 </div>
 </form>

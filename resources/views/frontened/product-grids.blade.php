@@ -11,7 +11,7 @@
 </div>
 <div class="col-lg-6 col-md-6 col-12">
 <ul class="breadcrumb-nav">
-<li><a href="index.html"><i class="lni lni-home"></i> Home</a></li>
+<li><a href="{{url('/')}}"><i class="lni lni-home"></i> Home</a></li>
 <li><a href="javascript:void(0)">Shop</a></li>
 <li>Shop Grid</li>
 </ul>
@@ -41,25 +41,25 @@
 <h3>All Categories</h3>
 <ul class="list">
 <li>
-<a href="product-grids.html">Computers & Accessories </a><span>(1138)</span>
+<a href="{{url('/ProductGrid')}}">Computers & Accessories </a><span>(1138)</span>
 </li>
 <li>
-<a href="product-grids.html">Smartphones & Tablets</a><span>(2356)</span>
+<a href="{{url('/ProductGrid')}}">Smartphones & Tablets</a><span>(2356)</span>
 </li>
 <li>
-<a href="product-grids.html">TV, Video & Audio</a><span>(420)</span>
+<a href="{{url('/ProductGrid')}}">TV, Video & Audio</a><span>(420)</span>
 </li>
 <li>
-<a href="product-grids.html">Cameras, Photo & Video</a><span>(874)</span>
+<a href="{{url('/ProductGrid')}}">Cameras, Photo & Video</a><span>(874)</span>
 </li>
 <li>
-<a href="product-grids.html">Headphones</a><span>(1239)</span>
+<a href="{{url('/ProductGrid')}}">Headphones</a><span>(1239)</span>
 </li>
 <li>
-<a href="product-grids.html">Wearable Electronics</a><span>(340)</span>
+<a href="{{url('/ProductGrid')}}">Wearable Electronics</a><span>(340)</span>
 </li>
 <li>
-<a href="product-grids.html">Printers & Ink</a><span>(512)</span>
+<a href="{{url('/ProductGrid')}}">Printers & Ink</a><span>(512)</span>
 </li>
 </ul>
 </div>
@@ -196,13 +196,13 @@ Panasonic (74)
 <div class="product-image">
 <img src="frontened/images/products/product-1.jpg" alt="#">
 <div class="button">
-<a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+<a href="{{url('/product-details')}}" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
 </div>
 </div>
 <div class="product-info">
 <span class="category">Watches</span>
 <h4 class="title">
-<a href="product-grids.html">Xiaomi Mi Band 5</a>
+<a href="{{url('/ProductGrid')}}">Xiaomi Mi Band 5</a>
 </h4>
 <ul class="review">
 <li><i class="lni lni-star-filled"></i></li>
@@ -226,13 +226,13 @@ Panasonic (74)
 <img src="frontened/images/products/product-2.jpg" alt="#">
 <span class="sale-tag">-25%</span>
 <div class="button">
-<a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+<a href="{{url('/product-details')}}" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
 </div>
 </div>
 <div class="product-info">
 <span class="category">Speaker</span>
 <h4 class="title">
-<a href="product-grids.html">Bluetooth Speaker</a>
+<a href="{{url('/ProductGrid')}}">Bluetooth Speaker</a>
 </h4>
 <ul class="review">
 <li><i class="lni lni-star-filled"></i></li>
@@ -256,13 +256,13 @@ Panasonic (74)
 <div class="product-image">
 <img src="frontened/images/products/product-3.jpg" alt="#">
 <div class="button">
-<a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+<a href="{{url('/product-details')}}" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
 </div>
 </div>
 <div class="product-info">
 <span class="category">Camera</span>
 <h4 class="title">
-<a href="product-grids.html">WiFi Security Camera</a>
+<a href="{{url('/ProductGrid')}}">WiFi Security Camera</a>
 </h4>
 <ul class="review">
 <li><i class="lni lni-star-filled"></i></li>
@@ -286,13 +286,13 @@ Panasonic (74)
 <img src="frontened/images/products/product-4.jpg" alt="#">
 <span class="new-tag">New</span>
 <div class="button">
-<a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+<a href="{{url('/product-details')}}" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
 </div>
 </div>
 <div class="product-info">
 <span class="category">Phones</span>
 <h4 class="title">
-<a href="product-grids.html">iphone 6x plus</a>
+<a href="{{url('/ProductGrid')}}">iphone 6x plus</a>
 </h4>
 <ul class="review">
 <li><i class="lni lni-star-filled"></i></li>
@@ -315,13 +315,13 @@ Panasonic (74)
 <div class="product-image">
 <img src="frontened/images/products/product-5.jpg" alt="#">
 <div class="button">
-<a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+<a href="{{url('/product-details')}}" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
 </div>
 </div>
 <div class="product-info">
 <span class="category">Headphones</span>
 <h4 class="title">
-<a href="product-grids.html">Wireless Headphones</a>
+<a href="{{url('/ProductGrid')}}">Wireless Headphones</a>
 </h4>
 <ul class="review">
 <li><i class="lni lni-star-filled"></i></li>
@@ -344,13 +344,13 @@ Panasonic (74)
 <div class="product-image">
 <img src="frontened/images/products/product-6.jpg" alt="#">
 <div class="button">
-<a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+<a href="{{url('/product-details')}}" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
 </div>
 </div>
 <div class="product-info">
 <span class="category">Speaker</span>
 <h4 class="title">
-<a href="product-grids.html">Mini Bluetooth Speaker</a>
+<a href="{{url('/ProductGrid')}}">Mini Bluetooth Speaker</a>
 </h4>
 <ul class="review">
 <li><i class="lni lni-star-filled"></i></li>
@@ -374,13 +374,13 @@ Panasonic (74)
 <img src="frontened/images/products/product-7.jpg" alt="#">
 <span class="sale-tag">-50%</span>
 <div class="button">
-<a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+<a href="pr{{url('/ProductGrid')}}" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
 </div>
 </div>
 <div class="product-info">
 <span class="category">Headphones</span>
 <h4 class="title">
-<a href="product-grids.html">Wireless Headphones</a>
+<a href="{{url('/ProductGrid')}}">Wireless Headphones</a>
 </h4>
 <ul class="review">
 <li><i class="lni lni-star-filled"></i></li>
@@ -404,13 +404,13 @@ Panasonic (74)
 <div class="product-image">
 <img src="frontened/images/products/product-8.jpg" alt="#">
 <div class="button">
-<a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+<a href="{{url('/product-details')}}" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
 </div>
  </div>
 <div class="product-info">
 <span class="category">Laptop</span>
 <h4 class="title">
-<a href="product-grids.html">Apple MacBook Air</a>
+<a href="{{url('/ProductGrid')}}">Apple MacBook Air</a>
 </h4>
 <ul class="review">
 <li><i class="lni lni-star-filled"></i></li>
@@ -434,13 +434,13 @@ Panasonic (74)
 <img src="frontened/images/products/product-2.jpg" alt="#">
 <span class="sale-tag">-25%</span>
 <div class="button">
-<a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+<a href="{{url('/product-details')}}" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
 </div>
 </div>
 <div class="product-info">
 <span class="category">Speaker</span>
 <h4 class="title">
-<a href="product-grids.html">Bluetooth Speaker</a>
+<a href="{{url('/ProductGrid')}}">Bluetooth Speaker</a>
 </h4>
 <ul class="review">
 <li><i class="lni lni-star-filled"></i></li>
@@ -485,7 +485,7 @@ Panasonic (74)
 <div class="product-image">
 <img src="frontened/images/products/product-1.jpg" alt="#">
 <div class="button">
-<a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to
+<a href="pr{{url('/ProductGrid')}}" class="btn"><i class="lni lni-cart"></i> Add to
 Cart</a>
 </div>
 </div>
@@ -494,7 +494,7 @@ Cart</a>
 <div class="product-info">
 <span class="category">Watches</span>
 <h4 class="title">
-<a href="product-grids.html">Xiaomi Mi Band 5</a>
+<a href="{{url('/ProductGrid')}}">Xiaomi Mi Band 5</a>
 </h4>
 <ul class="review">
 <li><i class="lni lni-star-filled"></i></li>
@@ -522,7 +522,7 @@ Cart</a>
 <img src="frontened/images/products/product-2.jpg" alt="#">
 <span class="sale-tag">-25%</span>
 <div class="button">
-<a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to
+<a href="pr{{url('/ProductGrid')}}" class="btn"><i class="lni lni-cart"></i> Add to
 Cart</a>
 </div>
 </div>
@@ -531,7 +531,7 @@ Cart</a>
 <div class="product-info">
 <span class="category">Speaker</span>
 <h4 class="title">
-<a href="product-grids.html">Big Power Sound Speaker</a>
+<a href="{{url('/ProductGrid')}}">Big Power Sound Speaker</a>
 </h4>
 <ul class="review">
 <li><i class="lni lni-star-filled"></i></li>
@@ -559,7 +559,7 @@ Cart</a>
 <div class="product-image">
 <img src="frontened/images/products/product-3.jpg" alt="#">
 <div class="button">
-<a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to
+<a href="pr{{url('/ProductGrid')}}" class="btn"><i class="lni lni-cart"></i> Add to
 Cart</a>
  </div>
 </div>
@@ -568,7 +568,7 @@ Cart</a>
 <div class="product-info">
 <span class="category">Camera</span>
 <h4 class="title">
-<a href="product-grids.html">WiFi Security Camera</a>
+<a href="{{url('/ProductGrid')}}">WiFi Security Camera</a>
 </h4>
 <ul class="review">
 <li><i class="lni lni-star-filled"></i></li>
@@ -596,7 +596,7 @@ Cart</a>
 <img src="frontened/images/products/product-4.jpg" alt="#">
 <span class="new-tag">New</span>
 <div class="button">
-<a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to
+<a href="pr{{url('/ProductGrid')}}" class="btn"><i class="lni lni-cart"></i> Add to
 Cart</a>
 </div>
 </div>
@@ -605,7 +605,7 @@ Cart</a>
 <div class="product-info">
 <span class="category">Phones</span>
 <h4 class="title">
-<a href="product-grids.html">iphone 6x plus</a>
+<a href="{{url('/ProductGrid')}}">iphone 6x plus</a>
 </h4>
 <ul class="review">
 <li><i class="lni lni-star-filled"></i></li>
@@ -633,7 +633,7 @@ Cart</a>
 <img src="frontened/images/products/product-7.jpg" alt="#">
 <span class="sale-tag">-50%</span>
 <div class="button">
-<a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to
+<a href="pr{{url('/ProductGrid')}}" class="btn"><i class="lni lni-cart"></i> Add to
 Cart</a>
 </div>
 </div>
@@ -642,7 +642,7 @@ Cart</a>
 <div class="product-info">
 <span class="category">Headphones</span>
 <h4 class="title">
-<a href="product-grids.html">PX7 Wireless Headphones</a>
+<a href="{{url('/ProductGrid')}}">PX7 Wireless Headphones</a>
 </h4>
 <ul class="review">
 <li><i class="lni lni-star-filled"></i></li>

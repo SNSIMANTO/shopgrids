@@ -50,4 +50,5 @@ Route::get('/product-details',[ProductDetailsController::class,'index']);
 Route::get('/ProductGrid',[ProductGridController::class,'index']);
 Route::get('/ProductList',[ProductListController::class,'index']);
 Route::get('/register',[RegisterController::class,'index']);
+Route::get('/password-recovery',[PasswordController::class,'index']);
 

@@ -19,7 +19,7 @@ M75 Sport Watch
 labore dolore magna aliqua.</p>
 <h3><span>Now Only</span> $320.99</h3>
 <div class="button">
-<a href="{{url(/ProductGrid)}}" class="btn">Shop Now</a>
+<a href="{{url('/ProductGrid')}}" class="btn">Shop Now</a>
 </div>
 </div>
 </div>
@@ -34,7 +34,7 @@ Get the Best Deal on CCTV Camera
 labore dolore magna aliqua.</p>
 <h3><span>Combo Only:</span> $590.00</h3>
 <div class="button">
-<a href="{{url(/ProductGrid)}}" class="btn">Shop Now</a>
+<a href="{{url('/ProductGrid')}}" class="btn">Shop Now</a>
 </div>
 </div>
 </div>
@@ -65,7 +65,7 @@ iPhone 12 Pro Max
 <h2>Weekly Sale!</h2>
  <p>Saving up to 50% off all online store items this week.</p>
 <div class="button">
-<a class="btn" href="{{url(/ProductGrid)}}">Shop Now</a>
+<a class="btn" href="{{url('/ProductGrid')}}">Shop Now</a>
 </div>
 </div>
 </div>
@@ -95,11 +95,11 @@ suffered alteration in some form.</p>
 <div class="single-category">
 <h3 class="heading">TV & Audios</h3>
 <ul>
-<li><a href="{{url(/ProductGrid)}}">Smart Television</a></li>
-<li><a href="{{url(/ProductGrid)}}">QLED TV</a></li>
-<li><a href="{{url(/ProductGrid)}}">Audios</a></li>
-<li><a href="{{url(/ProductGrid)}}">Headphones</a></li>
-<li><a href="{{url(/ProductGrid)}}">View All</a></li>
+<li><a href="{{url('/ProductGrid')}}">Smart Television</a></li>
+<li><a href="{{url('/ProductGrid')}}">QLED TV</a></li>
+<li><a href="{{url('/ProductGrid')}}">Audios</a></li>
+<li><a href="{{url('/ProductGrid')}}">Headphones</a></li>
+<li><a href="{{url('/ProductGrid')}}">View All</a></li>
 </ul>
 <div class="images">
 <img src="frontened/images/featured-categories/fetured-item-1.png" alt="#">
@@ -112,11 +112,11 @@ suffered alteration in some form.</p>
 <div class="single-category">
 <h3 class="heading">Desktop & Laptop</h3>
 <ul>
-<li><a href="{{url(/ProductGrid)}}">Smart Television</a></li>
-<li><a href="{{url(/ProductGrid)}}">QLED TV</a></li>
-<li><a href="{{url(/ProductGrid)}}">Audios</a></li>
-<li><a href="{{url(/ProductGrid)}}">Headphones</a></li>
-<li><a href="{{url(/ProductGrid)}}">View All</a></li>
+<li><a href="{{url('/ProductGrid')}}">Smart Television</a></li>
+<li><a href="{{url('/ProductGrid')}}">QLED TV</a></li>
+<li><a href="{{url('/ProductGrid')}}">Audios</a></li>
+<li><a href="{{url('/ProductGrid')}}">Headphones</a></li>
+<li><a href="{{url('/ProductGrid')}}">View All</a></li>
 </ul>
 <div class="images">
 <img src="frontened/images/featured-categories/fetured-item-2.png" alt="#">
@@ -129,11 +129,11 @@ suffered alteration in some form.</p>
 <div class="single-category">
 <h3 class="heading">Cctv Camera</h3>
 <ul>
-<li><a href="{{url(/ProductGrid)}}">Smart Television</a></li>
-<li><a href="{{url(/ProductGrid)}}">QLED TV</a></li>
-<li><a href="{{url(/ProductGrid)}}">Audios</a></li>
-<li><a href="{{url(/ProductGrid)}}">Headphones</a></li>
-<li><a href="{{url(/ProductGrid)}}">View All</a></li>
+<li><a href="{{url('/ProductGrid')}}">Smart Television</a></li>
+<li><a href="{{url('/ProductGrid')}}">QLED TV</a></li>
+<li><a href="{{url('/ProductGrid')}}">Audios</a></li>
+<li><a href="{{url('/ProductGrid')}}">Headphones</a></li>
+<li><a href="{{url('/ProductGrid')}}">View All</a></li>
 </ul>
 <div class="images">
 <img src="frontened/images/featured-categories/fetured-item-3.png" alt="#">
@@ -146,11 +146,11 @@ suffered alteration in some form.</p>
 <div class="single-category">
 <h3 class="heading">Dslr Camera</h3>
 <ul>
-<li><a href="{{url(/ProductGrid)}}">Smart Television</a></li>
-<li><a href="{{url(/ProductGrid)}}">QLED TV</a></li>
-<li><a href="{{url(/ProductGrid)}}">Audios</a></li>
-<li><a href="{{url(/ProductGrid)}}">Headphones</a></li>
-<li><a href="{{url(/ProductGrid)}}">View All</a></li>
+<li><a href="{{url('/ProductGrid')}}">Smart Television</a></li>
+<li><a href="{{url('/ProductGrid')}}">QLED TV</a></li>
+<li><a href="{{url('/ProductGrid')}}">Audios</a></li>
+<li><a href="{{url('/ProductGrid')}}">Headphones</a></li>
+<li><a href="{{url('/ProductGrid')}}">View All</a></li>
 </ul>
 <div class="images">
 <img src="frontened/images/featured-categories/fetured-item-4.png" alt="#">
@@ -163,11 +163,11 @@ suffered alteration in some form.</p>
 <div class="single-category">
 <h3 class="heading">Smart Phones</h3>
 <ul>
-<li><a href="{{url(/ProductGrid)}}">Smart Television</a></li>
-<li><a href="{{url(/ProductGrid)}}">QLED TV</a></li>
-<li><a href="{{url(/ProductGrid)}}">Audios</a></li>
-<li><a href="{{url(/ProductGrid)}}">Headphones</a></li>
-<li><a href="{{url(/ProductGrid)}}">View All</a></li>
+<li><a href="{{url('/ProductGrid')}}">Smart Television</a></li>
+<li><a href="{{url('/ProductGrid')}}">QLED TV</a></li>
+<li><a href="{{url('/ProductGrid')}}">Audios</a></li>
+<li><a href="{{url('/ProductGrid')}}">Headphones</a></li>
+<li><a href="{{url('/ProductGrid')}}">View All</a></li>
 </ul>
 <div class="images">
 <img src="frontened/images/featured-categories/fetured-item-5.png" alt="#">
@@ -180,11 +180,11 @@ suffered alteration in some form.</p>
 <div class="single-category">
 <h3 class="heading">Game Console</h3>
 <ul>
-<li><a href="{{url(/ProductGrid)}}">Smart Television</a></li>
-<li><a href="{{url(/ProductGrid)}}">QLED TV</a></li>
-<li><a href="{{url(/ProductGrid)}}">Audios</a></li>
-<li><a href="{{url(/ProductGrid)}}">Headphones</a></li>
-<li><a href="{{url(/ProductGrid)}}">View All</a></li>
+<li><a href="{{url('/ProductGrid')}}">Smart Television</a></li>
+<li><a href="{{url('/ProductGrid')}}">QLED TV</a></li>
+<li><a href="{{url('/ProductGrid')}}">Audios</a></li>
+<li><a href="{{url('/ProductGrid')}}">Headphones</a></li>
+<li><a href="{{url('/ProductGrid')}}">View All</a></li>
 </ul>
 <div class="images">
 <img src="frontened/images/featured-categories/fetured-item-6.png" alt="#">
@@ -215,13 +215,13 @@ suffered alteration in some form.</p>
 <div class="product-image">
 <img src="frontened/images/products/product-1.jpg" alt="#">
 <div class="button">
-<a href="{{url(/product-details)}}" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+<a href="{{url('/product-details')}}" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
 </div>
 </div>
  <div class="product-info">
 <span class="category">Watches</span>
 <h4 class="title">
-<a href="{{url(/ProductGrid)}}">Xiaomi Mi Band 5</a>
+<a href="{{url('/ProductGrid')}}">Xiaomi Mi Band 5</a>
 </h4>
 <ul class="review">
 <li><i class="lni lni-star-filled"></i></li>
@@ -245,13 +245,13 @@ suffered alteration in some form.</p>
 <img src="frofrontened/images/products/product-2.jpg" alt="#">
 <span class="sale-tag">-25%</span>
 <div class="button">
-<a href="{{url(/product-details)}}" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+<a href="{{url('/product-details')}}" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
 </div>
 </div>
 <div class="product-info">
 <span class="category">Speaker</span>
 <h4 class="title">
-<a href="{{url(/ProductGrid)}}">Big Power Sound Speaker</a>
+<a href="{{url('/ProductGrid')}}">Big Power Sound Speaker</a>
 </h4>
 <ul class="review">
 <li><i class="lni lni-star-filled"></i></li>
@@ -275,13 +275,13 @@ suffered alteration in some form.</p>
 <div class="product-image">
 <img src="frontened/images/products/product-3.jpg" alt="#">
 <div class="button">
-<a href="{{url(/product-details)}}" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+<a href="{{url('/product-details')}}" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
 </div>
 </div>
 <div class="product-info">
 <span class="category">Camera</span>
 <h4 class="title">
-<a href="{{url(/ProductGrid)}}">WiFi Security Camera</a>
+<a href="{{url('/ProductGrid')}}">WiFi Security Camera</a>
 </h4>
 <ul class="review">
 <li><i class="lni lni-star-filled"></i></li>
@@ -305,13 +305,13 @@ suffered alteration in some form.</p>
 <img src="frontened/images/products/product-4.jpg" alt="#">
 <span class="new-tag">New</span>
 <div class="button">
-<a href="{{url(/product-details)}}" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+<a href="{{url('/product-details')}}" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
 </div>
 </div>
 <div class="product-info">
 <span class="category">Phones</span>
 <h4 class="title">
-<a href="{{url(/ProductGrid)}}">iphone 6x plus</a>
+<a href="{{url('/ProductGrid')}}">iphone 6x plus</a>
 </h4>
 <ul class="review">
 <li><i class="lni lni-star-filled"></i></li>
@@ -340,7 +340,7 @@ suffered alteration in some form.</p>
 <div class="product-info">
 <span class="category">Headphones</span>
 <h4 class="title">
-<a href="{{url(/ProductGrid)}}">Wireless Headphones</a>
+<a href="{{url('/ProductGrid')}}">Wireless Headphones</a>
 </h4>
 <ul class="review">
 <li><i class="lni lni-star-filled"></i></li>
@@ -369,7 +369,7 @@ suffered alteration in some form.</p>
 <div class="product-info">
 <span class="category">Speaker</span>
 <h4 class="title">
-<a href="{{url(/ProductGrid)}}">Mini Bluetooth Speaker</a>
+<a href="{{url('/ProductGrid')}}">Mini Bluetooth Speaker</a>
 </h4>
 <ul class="review">
 <li><i class="lni lni-star-filled"></i></li>
@@ -399,7 +399,7 @@ suffered alteration in some form.</p>
 <div class="product-info">
 <span class="category">Headphones</span>
 <h4 class="title">
-<a href="{{url(/ProductGrid)}}">PX7 Wireless Headphones</a>
+<a href="{{url('/ProductGrid')}}">PX7 Wireless Headphones</a>
 </h4>
 <ul class="review">
 <li><i class="lni lni-star-filled"></i></li>
@@ -429,7 +429,7 @@ suffered alteration in some form.</p>
 <div class="product-info">
 <span class="category">Laptop</span>
 <h4 class="title">
-<a href="{{url(/ProductGrid)}}">Apple MacBook Air</a>
+<a href="{{url('/ProductGrid')}}">Apple MacBook Air</a>
 </h4>
 <ul class="review">
 <li><i class="lni lni-star-filled"></i></li>
@@ -460,7 +460,7 @@ suffered alteration in some form.</p>
 <h2>Smart Watch 2.0</h2>
 <p>Space Gray Aluminum Case with <br>Black/Volt Real Sport Band </p>
 <div class="button">
-<a href="{{url(/ProductGrid)}}" class="btn">View Details</a>
+<a href="{{url('/ProductGrid')}}" class="btn">View Details</a>
 </div>
 </div>
 </div>
@@ -472,7 +472,7 @@ suffered alteration in some form.</p>
 <p>Lorem ipsum dolor sit amet, <br>eiusmod tempor
 incididunt ut labore.</p>
 <div class="button">
-<a href="{{url(/ProductGrid)}}" class="btn">Shop Now</a>
+<a href="{{url('/ProductGrid')}}" class="btn">Shop Now</a>
 </div>
 </div>
 </div>
@@ -509,7 +509,7 @@ Cart</a>
 <div class="product-info">
 <span class="category">Camera</span>
 <h4 class="title">
-<a href="{{url(/ProductGrid)}}">WiFi Security Camera</a>
+<a href="{{url('/ProductGrid')}}">WiFi Security Camera</a>
 </h4>
 <ul class="review">
 <li><i class="lni lni-star-filled"></i></li>
@@ -539,7 +539,7 @@ Cart</a>
 <div class="product-info">
 <span class="category">Laptop</span>
 <h4 class="title">
-<a href="{{url(/ProductGrid)}}">Apple MacBook Air</a>
+<a href="{{url('/ProductGrid')}}">Apple MacBook Air</a>
 </h4>
 <ul class="review">
 <li><i class="lni lni-star-filled"></i></li>
@@ -569,7 +569,7 @@ Cart</a>
 <div class="product-info">
 <span class="category">Speaker</span>
 <h4 class="title">
-<a href="{{url(/ProductGrid)}}">Bluetooth Speaker</a>
+<a href="{{url('/ProductGrid')}}">Bluetooth Speaker</a>
 </h4>
 <ul class="review">
 <li><i class="lni lni-star-filled"></i></li>
@@ -597,7 +597,7 @@ incididunt ut labore.</p>
 <span>$590.00</span>
 </div>
 <div class="button">
-<a href="{{url(/ProductGrid)}}" class="btn">Shop Now</a>
+<a href="{{url('/ProductGrid')}}" class="btn">Shop Now</a>
 </div>
 </div>
 </div>
@@ -610,7 +610,7 @@ incididunt ut labore.</p>
 <span class="sale-tag">-50%</span>
 </div>
 <div class="text">
-<h2><a href="{{url(/ProductGrid)}}">Bluetooth Headphone</a></h2>
+<h2><a href="{{url('/ProductGrid')}}">Bluetooth Headphone</a></h2>
 <ul class="review">
 <li><i class="lni lni-star-filled"></i></li>
 <li><i class="lni lni-star-filled"></i></li>
@@ -662,11 +662,11 @@ eiusmod tempor labores.</p>
 
 <div class="single-list">
 <div class="list-image">
-<a href="{{url(/ProductGrid)}}"><img src="frontened/images/home-product-list/01.jpg" alt="#"></a>
+<a href="{{url('/ProductGrid')}}"><img src="frontened/images/home-product-list/01.jpg" alt="#"></a>
 </div>
 <div class="list-info">
 <h3>
-<a href="{{url(/ProductGrid)}}">GoPro Hero4 Silver</a>
+<a href="{{url('/ProductGrid')}}">GoPro Hero4 Silver</a>
 </h3>
 <span>$287.99</span>
 </div>
@@ -675,11 +675,11 @@ eiusmod tempor labores.</p>
 
 <div class="single-list">
 <div class="list-image">
-<a href="{{url(/ProductGrid)}}"><img src="frontened/images/home-product-list/02.jpg" alt="#"></a>
+<a href="{{url('/ProductGrid')}}"><img src="frontened/images/home-product-list/02.jpg" alt="#"></a>
 </div>
 <div class="list-info">
 <h3>
-<a href="{{url(/ProductGrid)}}">Puro Sound Labs BT2200</a>
+<a href="{{url('/ProductGrid')}}">Puro Sound Labs BT2200</a>
 </h3>
 <span>$95.00</span>
 </div>
@@ -688,11 +688,11 @@ eiusmod tempor labores.</p>
 
 <div class="single-list">
 <div class="list-image">
-<a href="{{url(/ProductGrid)}}"><img src="frontened/images/home-product-list/03.jpg" alt="#"></a>
+<a href="{{url('/ProductGrid')}}"><img src="frontened/images/home-product-list/03.jpg" alt="#"></a>
 </div>
 <div class="list-info">
 <h3>
-<a href="{{url(/ProductGrid)}}">HP OfficeJet Pro 8710</a>
+<a href="{{url('/ProductGrid')}}">HP OfficeJet Pro 8710</a>
 </h3>
 <span>$120.00</span>
 </div>
@@ -704,11 +704,11 @@ eiusmod tempor labores.</p>
 
 <div class="single-list">
 <div class="list-image">
-<a href="{{url(/ProductGrid)}}"><img src="frontened/images/home-product-list/04.jpg" alt="#"></a>
+<a href="{{url('/ProductGrid')}}"><img src="frontened/images/home-product-list/04.jpg" alt="#"></a>
 </div>
 <div class="list-info">
 <h3>
-<a href="{{url(/ProductGrid)}}">iPhone X 256 GB Space Gray</a>
+<a href="{{url('/ProductGrid')}}">iPhone X 256 GB Space Gray</a>
 </h3>
 <span>$1150.00</span>
 </div>
@@ -717,11 +717,11 @@ eiusmod tempor labores.</p>
 
 <div class="single-list">
 <div class="list-image">
-<a href="{{url(/ProductGrid)}}"><img src="frontened/images/home-product-list/05.jpg" alt="#"></a>
+<a href="{{url('/ProductGrid')}}"><img src="frontened/images/home-product-list/05.jpg" alt="#"></a>
 </div>
 <div class="list-info">
 <h3>
-<a href="{{url(/ProductGrid)}}">Canon EOS M50 Mirrorless Camera</a>
+<a href="{{url('/ProductGrid')}}">Canon EOS M50 Mirrorless Camera</a>
 </h3>
 <span>$950.00</span>
 </div>
@@ -730,11 +730,11 @@ eiusmod tempor labores.</p>
 
 <div class="single-list">
 <div class="list-image">
-<a href="{{url(/ProductGrid)}}"><img src="frontened/images/home-product-list/06.jpg" alt="#"></a>
+<a href="{{url('/ProductGrid')}}"><img src="frontened/images/home-product-list/06.jpg" alt="#"></a>
 </div>
 <div class="list-info">
 <h3>
-<a href="{{url(/ProductGrid)}}">Microsoft Xbox One S</a>
+<a href="{{url('/ProductGrid')}}">Microsoft Xbox One S</a>
 </h3>
 <span>$298.00</span>
 </div>
@@ -746,11 +746,11 @@ eiusmod tempor labores.</p>
 
 <div class="single-list">
 <div class="list-image">
-<a href="{{url(/ProductGrid)}}"><img src="frontened/images/home-product-list/07.jpg" alt="#"></a>
+<a href="{{url('/ProductGrid')}}"><img src="frontened/images/home-product-list/07.jpg" alt="#"></a>
 </div>
 <div class="list-info">
 <h3>
-<a href="{{url(/ProductGrid)}}">Samsung Gear 360 VR Camera</a>
+<a href="{{url('/ProductGrid')}}">Samsung Gear 360 VR Camera</a>
 </h3>
 <span>$68.00</span>
 </div>
@@ -759,11 +759,11 @@ eiusmod tempor labores.</p>
 
 <div class="single-list">
 <div class="list-image">
-<a href="{{url(/ProductGrid)}}"><img src="frontened/images/home-product-list/08.jpg" alt="#"></a>
+<a href="{{url('/ProductGrid')}}"><img src="frontened/images/home-product-list/08.jpg" alt="#"></a>
 </div>
 <div class="list-info">
 <h3>
-<a href="{{url(/ProductGrid)}}">Samsung Galaxy S9+ 64 GB</a>
+<a href="{{url('/ProductGrid')}}">Samsung Galaxy S9+ 64 GB</a>
 </h3>
 <span>$840.00</span>
 </div>
@@ -772,11 +772,11 @@ eiusmod tempor labores.</p>
 
 <div class="single-list">
 <div class="list-image">
-<a href="{{url(/ProductGrid)}}"><img src="frontened/images/home-product-list/09.jpg" alt="#"></a>
+<a href="{{url('/ProductGrid')}}"><img src="frontened/images/home-product-list/09.jpg" alt="#"></a>
 </div>
 <div class="list-info">
 <h3>
-<a href="{{url(/ProductGrid)}}">Zeus Bluetooth Headphones</a>
+<a href="{{url('/ProductGrid')}}">Zeus Bluetooth Headphones</a>
 </h3>
 <span>$28.00</span>
 </div>

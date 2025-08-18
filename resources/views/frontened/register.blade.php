@@ -11,7 +11,7 @@
 </div>
 <div class="col-lg-6 col-md-6 col-12">
 <ul class="breadcrumb-nav">
-<li><a href="index.html"><i class="lni lni-home"></i> Home</a></li>
+<li><a href="{{url('/')}}"><i class="lni lni-home"></i> Home</a></li>
 <li>Registration</li>
 </ul>
 </div>
@@ -69,7 +69,7 @@
 <div class="button">
 <button class="btn" type="submit">Register</button>
 </div>
-<p class="outer-link">Already have an account? <a href="login.html">Login Now</a>
+<p class="outer-link">Already have an account? <a href="{{url('/signin')}}">Login Now</a>
 </p>
 </form>
 </div>

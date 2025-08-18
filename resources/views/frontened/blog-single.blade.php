@@ -12,8 +12,8 @@
 </div>
 <div class="col-lg-6 col-md-6 col-12">
 <ul class="breadcrumb-nav">
-<li><a href="index.html"><i class="lni lni-home"></i> Home</a></li>
-<li><a href="index.html">Blog</a></li>
+<li><a href="{{url('/')}}"><i class="lni lni-home"></i> Home</a></li>
+<li><a href="{{url('/')}}">Blog</a></li>
 <li>Blog Single</li>
 </ul>
 </div>
@@ -34,7 +34,7 @@
 </div>
 <div class="meta-information">
 <h2 class="post-title">
-<a href="blog-single.html">Smartphones in Every Day Life.</a>
+<a href="{{url('/blog-single')}}">Smartphones in Every Day Life.</a>
 </h2>
 
 <ul class="meta-info">
