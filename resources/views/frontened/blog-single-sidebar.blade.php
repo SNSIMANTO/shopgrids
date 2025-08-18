@@ -293,30 +293,30 @@ veniam.
 <div class="popular-feed-loop">
 <div class="single-popular-feed">
 <div class="feed-desc">
-<a class="feed-img" href="blog-single-sidebar.html">
+<a class="feed-img" href="{{url('/blog-single-sidebar')}}">
 <img src="frontened/images/blog/blog-sidebar-1.jpg" alt="#">
 </a>
- <h6 class="post-title"><a href="blog-single-sidebar.html">What information is
+ <h6 class="post-title"><a href="{{url('/blog-single-sidebar')}}">What information is
 needed for shipping?</a></h6>
 <span class="time"><i class="lni lni-calendar"></i> 05th Nov 2023</span>
 </div>
 </div>
 <div class="single-popular-feed">
 <div class="feed-desc">
-<a class="feed-img" href="blog-single-sidebar.html">
+<a class="feed-img" href="{{url('/blog-single-sidebar')}}">
 <img src="frontened/images/blog/blog-sidebar-2.jpg" alt="#">
 </a>
-<h6 class="post-title"><a href="blog-single-sidebar.html">Interesting fact about
+<h6 class="post-title"><a href="{{url('/blog-single-sidebar')}}">Interesting fact about
 gaming consoles</a></h6>
 <span class="time"><i class="lni lni-calendar"></i> 24th March 2023</span>
 </div>
 </div>
 <div class="single-popular-feed">
 <div class="feed-desc">
-<a class="feed-img" href="blog-single-sidebar.html">
+<a class="feed-img" href="{{url('/blog-single-sidebar')}}">
 <img src="frontened/images/blog/blog-sidebar-3.jpg" alt="#">
 </a>
-<h6 class="post-title"><a href="blog-single-sidebar.html">Electronics,
+<h6 class="post-title"><a href="{{url('/blog-single-sidebar')}}">Electronics,
 instrumentation & control engineering </a></h6>
 <span class="time"><i class="lni lni-calendar"></i> 30th Jan 2023</span>
 </div>
