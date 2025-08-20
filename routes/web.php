@@ -1,5 +1,5 @@
 <?php
-
+   //frontened
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Frontened\AboutUsController;
 use App\Http\Controllers\Frontened\BlogGridSidebarController;
@@ -18,6 +18,11 @@ use App\Http\Controllers\Frontened\ProductGridController;
 use App\Http\Controllers\Frontened\ProductListController;
 use App\Http\Controllers\Frontened\RegisterController;
 
+
+//backend
+
+use App\Http\Controllers\Backend\AuthController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -30,7 +35,7 @@ use App\Http\Controllers\Frontened\RegisterController;
 */
 
 
-
+//frontend
 
 Route::get('/',[HomeController::class,'index']);
 Route::get('/signin',[LoginController::class,'index']);
@@ -52,3 +57,15 @@ Route::get('/ProductList',[ProductListController::class,'index']);
 Route::get('/register',[RegisterController::class,'index']);
 Route::get('/password-recovery',[PasswordController::class,'index']);
 
+//backend routes
+Route::get('login', [AuthController::class, 'index'])->name('login');
+
+Route::post('post-login', [AuthController::class, 'postLogin'])->name('login.post');
+
+Route::get('registration', [AuthController::class, 'registration'])->name('register');
+
+Route::post('post-registration', [AuthController::class, 'postRegistration'])->name('register.post');
+
+Route::get('dashboard', [AuthController::class, 'dashboard']);
+
+Route::get('logout', [AuthController::class, 'logout'])->name('logout');
