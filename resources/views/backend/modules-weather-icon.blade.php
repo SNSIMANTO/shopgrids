@@ -1,31 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
-  <title>Modules &rsaquo; Weather Icon &mdash; Stisla</title>
-
-  <!-- General CSS Files -->
-  <link rel="stylesheet" href="assets/modules/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/modules/fontawesome/css/all.min.css">
-
-  <!-- CSS Libraries -->
-  <link rel="stylesheet" href="assets/modules/weather-icon/css/weather-icons.min.css">
-  <link rel="stylesheet" href="assets/modules/weather-icon/css/weather-icons-wind.min.css">
-
-  <!-- Template CSS -->
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/components.css">
-<!-- Start GA -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-94034622-3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-94034622-3');
-</script>
-<!-- /END GA --></head>
+@extends('backend.layouts.main')
+@section('Main-Container')
 
 <body>
   <div id="app">
@@ -351,19 +325,19 @@
             <li class="dropdown">
               <a href="#" class="nav-link has-dropdown"><i class="far fa-user"></i> <span>Auth</span></a>
               <ul class="dropdown-menu">
-                <li><a href="auth-forgot-password.html">Forgot Password</a></li> 
-                <li><a href="auth-login.html">Login</a></li> 
-                <li><a href="auth-register.html">Register</a></li> 
-                <li><a href="auth-reset-password.html">Reset Password</a></li> 
+                <li><a href="auth-forgot-password.html">Forgot Password</a></li>
+                <li><a href="auth-login.html">Login</a></li>
+                <li><a href="auth-register.html">Register</a></li>
+                <li><a href="auth-reset-password.html">Reset Password</a></li>
               </ul>
             </li>
             <li class="dropdown">
               <a href="#" class="nav-link has-dropdown"><i class="fas fa-exclamation"></i> <span>Errors</span></a>
               <ul class="dropdown-menu">
-                <li><a class="nav-link" href="errors-503.html">503</a></li> 
-                <li><a class="nav-link" href="errors-403.html">403</a></li> 
-                <li><a class="nav-link" href="errors-404.html">404</a></li> 
-                <li><a class="nav-link" href="errors-500.html">500</a></li> 
+                <li><a class="nav-link" href="errors-503.html">503</a></li>
+                <li><a class="nav-link" href="errors-403.html">403</a></li>
+                <li><a class="nav-link" href="errors-404.html">404</a></li>
+                <li><a class="nav-link" href="errors-500.html">500</a></li>
               </ul>
             </li>
             <li class="dropdown">
@@ -1159,7 +1133,7 @@
                       <div class="section-title">Moon Phases</div>
                       <div class="alert alert-primary alert-has-icon">
                       <div class="alert-icon"><i class="fa fa-info-circle"></i></div>
-                      <div class="alert-body">                                
+                      <div class="alert-body">
                         <p>The moons are split into 28 icons, to correspond neatly with the 28 day moon cycle. There is a primary set and alternate set. The primary set is meant to be interpreted as: where there are pixels, that is the illuminated part of the moon. The alternate set is meant to be interpreted as: where there are pixels, that is the shadowed part of the moon.</p>
                       </div>
                       </div>
@@ -1565,7 +1539,7 @@
                         <p>There are 360 classes for each in 1 degree increments for maximum precision.</p>
                         <p></p>
                         <p>To make a wind icon appear, you need to add 3 classes, the base icon class, the wind icon class, and then the direction you want it to face: <code>class="wi wi-wind towards-23-deg"</code></p>
-                        
+
                         <p></p>
                         <p>NOTE: You must include the additional stylesheeet, <code>weather-icons-wind.css</code> to use the wind icons and API mappings.</p>
                       </div>
@@ -1737,7 +1711,7 @@
                       <div class="section-title">Wind Cardinal Examples</div>
                       <div class="alert alert-primary alert-has-icon">
                       <div class="alert-icon"><i class="fa fa-info-circle"></i></div>
-                      <div class="alert-body">                                
+                      <div class="alert-body">
                         <p>The classes for the cardinal wind direction indicator is split into 2 options. You can choose towards or from. Towards points to the direction in the class, north at the top. From points directly away from the direction in the class. This means, if you want the indicator to represent "wind is coming from the south", you can use the <code>towards-n</code> class, or if you prefer to use from, then you would use <code>from-s</code>.</p>
                         <p>The purpose of this is to accommodate applications that prefer to point to where the wind is originating from (arrow points against the wind), or pointing where the wind is blowing (arrow points in direction of wind). You can decide which fits your application best and use the class that matches.</p>
                         <p>There are 16 classes each for precision when using cardinal directions.</p>
@@ -1987,14 +1961,6 @@
           </div>
         </section>
       </div>
-      <footer class="main-footer">
-        <div class="footer-left">
-          Copyright &copy; 2018 <div class="bullet"></div> Design By <a href="https://nauval.in/">Muhamad Nauval Azhar</a>
-        </div>
-        <div class="footer-right">
-          
-        </div>
-      </footer>
     </div>
   </div>
 
@@ -2006,13 +1972,14 @@
   <script src="assets/modules/nicescroll/jquery.nicescroll.min.js"></script>
   <script src="assets/modules/moment.min.js"></script>
   <script src="assets/js/stisla.js"></script>
-  
+
   <!-- JS Libraies -->
 
   <!-- Page Specific JS File -->
-  
+
   <!-- Template JS File -->
   <script src="assets/js/scripts.js"></script>
   <script src="assets/js/custom.js"></script>
 </body>
 </html>
+@endsection
