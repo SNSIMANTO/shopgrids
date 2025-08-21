@@ -19,9 +19,16 @@ use App\Http\Controllers\Frontened\ProductListController;
 use App\Http\Controllers\Frontened\RegisterController;
 
 
-//backend
+//Authentication
 
 use App\Http\Controllers\Backend\AuthController;
+
+
+//Backend routes
+
+//use App\Http\Controllers\Backend\;
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -57,7 +64,7 @@ Route::get('/ProductList',[ProductListController::class,'index']);
 Route::get('/register',[RegisterController::class,'index']);
 Route::get('/password-recovery',[PasswordController::class,'index']);
 
-//backend routes
+//Authentication routes
 Route::get('login', [AuthController::class, 'index'])->name('login');
 
 Route::post('post-login', [AuthController::class, 'postLogin'])->name('login.post');
@@ -69,3 +76,6 @@ Route::post('post-registration', [AuthController::class, 'postRegistration'])->n
 Route::get('dashboard', [AuthController::class, 'dashboard']);
 
 Route::get('logout', [AuthController::class, 'logout'])->name('logout');
+
+
+//backend Routes

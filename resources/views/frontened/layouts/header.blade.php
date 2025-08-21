@@ -87,6 +87,9 @@
                            <li>
                               <a href="{{url('/register')}}">Register</a>
                            </li>
+                           <li>
+                              <a href="{{url('/login')}}">Admin</a>
+                           </li>
                         </ul>
                      </div>
                   </div>

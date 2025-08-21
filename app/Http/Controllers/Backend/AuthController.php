@@ -10,7 +10,7 @@ use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
 
-use Illuminate\Support\Facades\Backend;
+use Illuminate\Support\Facades\Auth;
 
 use Session;
 
@@ -38,7 +38,7 @@ class AuthController extends Controller
 
     {
 
-        return view('auth.login');
+        return view('backend.login');
 
     }
 
@@ -58,7 +58,7 @@ class AuthController extends Controller
 
     {
 
-        return view('auth.registration');
+        return view('backend.registration');
 
     }
 
@@ -160,7 +160,7 @@ class AuthController extends Controller
 
         if(Auth::check()){
 
-            return view('dashboard');
+            return view('backend.blank');
 
         }
 
