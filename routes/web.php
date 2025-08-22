@@ -250,7 +250,7 @@ Route::get('/gmaps-marker-cluster', [GmapsMarkerClusterController::class, 'index
 Route::get('/gmaps-multiple-marker', [GmapsMultipleMarkerController::class, 'index']);
 Route::get('/gmaps-simple', [GmapsSimpleController::class, 'index']);
 
-Route::get('/', [IndexController::class, 'index']);
+Route::get('/backend-index', [IndexController::class, 'index']);
 Route::get('/layout-default', [LayoutDefaultController::class, 'index']);
 Route::get('/layout-top-navigation', [LayoutTopNavigationController::class, 'index']);
 Route::get('/layout-transparent', [LayoutTransparentController::class, 'index']);
