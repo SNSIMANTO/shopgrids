@@ -7,5 +7,7 @@ use Illuminate\Http\Request;
 
 class GmapsAdvancedRouteController extends Controller
 {
-    //
+     public function index(){
+        return view('backend.gmaps-advanced-route');
+    }
 }

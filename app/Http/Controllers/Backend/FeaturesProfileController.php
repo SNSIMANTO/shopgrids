@@ -7,5 +7,7 @@ use Illuminate\Http\Request;
 
 class FeaturesProfileController extends Controller
 {
-    //
+     public function index(){
+        return view('backend.features-profile');
+    }
 }

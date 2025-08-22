@@ -7,5 +7,7 @@ use Illuminate\Http\Request;
 
 class ErrorFiveZeroThreeController extends Controller
 {
-    //
+     public function index(){
+        return view('backend.errors-503');
+    }
 }

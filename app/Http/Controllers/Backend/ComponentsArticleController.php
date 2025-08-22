@@ -7,5 +7,7 @@ use Illuminate\Http\Request;
 
 class ComponentsArticleController extends Controller
 {
-    //
+     public function index(){
+        return view('backend.components-article');
+    }
 }

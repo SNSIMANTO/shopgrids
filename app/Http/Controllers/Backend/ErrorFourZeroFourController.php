@@ -7,5 +7,7 @@ use Illuminate\Http\Request;
 
 class ErrorFourZeroFourController extends Controller
 {
-    //
+     public function index(){
+        return view('backend.errors-404');
+    }
 }

@@ -7,5 +7,7 @@ use Illuminate\Http\Request;
 
 class BootsrrapModalController extends Controller
 {
-    //
+     public function index(){
+        return view('backend.bootstrap-modal');
+    }
 }

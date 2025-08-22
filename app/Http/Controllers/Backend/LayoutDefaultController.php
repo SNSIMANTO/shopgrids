@@ -7,5 +7,7 @@ use Illuminate\Http\Request;
 
 class LayoutDefaultController extends Controller
 {
-    //
+     public function index(){
+        return view('backend.layout-default');
+    }
 }

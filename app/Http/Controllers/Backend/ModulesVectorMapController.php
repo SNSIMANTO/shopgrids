@@ -7,5 +7,7 @@ use Illuminate\Http\Request;
 
 class ModulesVectorMapController extends Controller
 {
-    //
+     public function index(){
+        return view('backend.modules-vector-map');
+    }
 }

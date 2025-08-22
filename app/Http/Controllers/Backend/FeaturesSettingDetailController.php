@@ -7,5 +7,7 @@ use Illuminate\Http\Request;
 
 class FeaturesSettingDetailController extends Controller
 {
-    //
+     public function index(){
+        return view('backend.features-setting-detail');
+    }
 }

@@ -7,5 +7,7 @@ use Illuminate\Http\Request;
 
 class GmapsDraggableMakerController extends Controller
 {
-    //
+     public function index(){
+        return view('backend.gmaps-draggable-marker');
+    }
 }

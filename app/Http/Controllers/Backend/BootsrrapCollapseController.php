@@ -7,5 +7,7 @@ use Illuminate\Http\Request;
 
 class BootsrrapCollapseController extends Controller
 {
-    //
+     public function index(){
+        return view('backend.bootstrap-collapse');
+    }
 }

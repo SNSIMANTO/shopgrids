@@ -7,5 +7,7 @@ use Illuminate\Http\Request;
 
 class BootsrrapNavController extends Controller
 {
-    //
+     public function index(){
+        return view('backend.bootstrap-nav');
+    }
 }

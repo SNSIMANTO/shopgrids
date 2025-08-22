@@ -7,5 +7,7 @@ use Illuminate\Http\Request;
 
 class ModulesSparklineController extends Controller
 {
-    //
+     public function index(){
+        return view('backend.modules-sparkline');
+    }
 }

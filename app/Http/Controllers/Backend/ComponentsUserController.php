@@ -7,5 +7,7 @@ use Illuminate\Http\Request;
 
 class ComponentsUserController extends Controller
 {
-    //
+     public function index(){
+        return view('backend.components-user');
+    }
 }

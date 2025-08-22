@@ -7,5 +7,7 @@ use Illuminate\Http\Request;
 
 class BootsrrapTypographyController extends Controller
 {
-    //
+     public function index(){
+        return view('backend.bootstrap-typography');
+    }
 }

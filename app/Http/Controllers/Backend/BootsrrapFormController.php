@@ -7,5 +7,7 @@ use Illuminate\Http\Request;
 
 class BootsrrapFormController extends Controller
 {
-    //
+     public function index(){
+        return view('backend.bootstrap-form');
+    }
 }

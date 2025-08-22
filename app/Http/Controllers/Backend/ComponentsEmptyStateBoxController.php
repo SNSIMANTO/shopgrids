@@ -7,5 +7,7 @@ use Illuminate\Http\Request;
 
 class ComponentsEmptyStateBoxController extends Controller
 {
-    //
+     public function index(){
+        return view('backend.components-empty-state');
+    }
 }

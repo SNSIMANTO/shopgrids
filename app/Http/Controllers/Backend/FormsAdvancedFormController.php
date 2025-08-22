@@ -7,5 +7,7 @@ use Illuminate\Http\Request;
 
 class FormsAdvancedFormController extends Controller
 {
-    //
+     public function index(){
+        return view('backend.forms-advanced-form');
+    }
 }

@@ -7,5 +7,7 @@ use Illuminate\Http\Request;
 
 class UtilitiesInvoiceController extends Controller
 {
-    //
+     public function index(){
+        return view('backend.utilities-invoice');
+    }
 }

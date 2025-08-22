@@ -7,5 +7,7 @@ use Illuminate\Http\Request;
 
 class BootsrrapTableController extends Controller
 {
-    //
+     public function index(){
+        return view('backend.bootstrap-table');
+    }
 }

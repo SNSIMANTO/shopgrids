@@ -7,5 +7,7 @@ use Illuminate\Http\Request;
 
 class FormsEditorController extends Controller
 {
-    //
+     public function index(){
+        return view('backend.forms-editor');
+    }
 }

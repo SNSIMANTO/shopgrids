@@ -7,5 +7,7 @@ use Illuminate\Http\Request;
 
 class FeaturesActivitiesController extends Controller
 {
-    //
+     public function index(){
+        return view('backend.features-activities');
+    }
 }

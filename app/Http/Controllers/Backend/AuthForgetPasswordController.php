@@ -7,5 +7,7 @@ use Illuminate\Http\Request;
 
 class AuthForgetPasswordController extends Controller
 {
-    //
+     public function index(){
+        return view('backend.auth-forgot-password');
+    }
 }
