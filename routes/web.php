@@ -11,7 +11,7 @@ use App\Http\Controllers\Frontened\ContactASController;
 use App\Http\Controllers\Frontened\FaqController;
 use App\Http\Controllers\Frontened\FourZeroFourController;
 use App\Http\Controllers\Frontened\HomeController;
-use App\Http\Controllers\Frontened\LoginController;
+use App\Http\Controllers\Frontened\LoginController as ForntendLoginController;
 use App\Http\Controllers\Frontened\MailSuccessController;
 use App\Http\Controllers\Frontened\ProductDetailsController;
 use App\Http\Controllers\Frontened\ProductGridController;
@@ -25,6 +25,103 @@ use App\Http\Controllers\Backend\AuthController;
 
 
 //Backend routes
+use App\Http\Controllers\Backend\AuthForgotPasswordController;
+use App\Http\Controllers\Backend\AuthLoginController;
+use App\Http\Controllers\Backend\AuthRegisterController;
+use App\Http\Controllers\Backend\AuthResetController;
+use App\Http\Controllers\Backend\BankController;
+
+use App\Http\Controllers\Backend\BootstrapAlertController;
+use App\Http\Controllers\Backend\BootstrapBadgeController;
+use App\Http\Controllers\Backend\BootstrapBreadcrumbController;
+use App\Http\Controllers\Backend\BootstrapButtonController;
+use App\Http\Controllers\Backend\BootstrapCardController;
+use App\Http\Controllers\Backend\BootstrapCarouselController;
+use App\Http\Controllers\Backend\BootstrapCollapseController;
+use App\Http\Controllers\Backend\BootstrapDropdownController;
+use App\Http\Controllers\Backend\BootstrapGridController;
+use App\Http\Controllers\Backend\BootstrapImageController;
+use App\Http\Controllers\Backend\BootstrapListGroupController;
+use App\Http\Controllers\Backend\BootstrapMediaObjectController;
+use App\Http\Controllers\Backend\BootstrapModalController;
+use App\Http\Controllers\Backend\BootstrapNavController;
+use App\Http\Controllers\Backend\BootstrapNavbarController;
+use App\Http\Controllers\Backend\BootstrapPaginationController;
+use App\Http\Controllers\Backend\BootstrapPopoverController;
+use App\Http\Controllers\Backend\BootstrapProgressController;
+use App\Http\Controllers\Backend\BootstrapSpinnerController;
+use App\Http\Controllers\Backend\BootstrapTabController;
+use App\Http\Controllers\Backend\BootstrapToastController;
+use App\Http\Controllers\Backend\BootstrapTooltipController;
+
+use App\Http\Controllers\Backend\ComponentsAlertController;
+use App\Http\Controllers\Backend\ComponentsAvatarController;
+use App\Http\Controllers\Backend\ComponentsBadgeController;
+use App\Http\Controllers\Backend\ComponentsBreadcrumbController;
+use App\Http\Controllers\Backend\ComponentsButtonsController;
+use App\Http\Controllers\Backend\ComponentsCardsController;
+use App\Http\Controllers\Backend\ComponentsCarouselController;
+use App\Http\Controllers\Backend\ComponentsCollapseController;
+use App\Http\Controllers\Backend\ComponentsDropdownController;
+use App\Http\Controllers\Backend\ComponentsListGroupController;
+use App\Http\Controllers\Backend\ComponentsMediaObjectController;
+use App\Http\Controllers\Backend\ComponentsModalController;
+use App\Http\Controllers\Backend\ComponentsMultipleUploadController;
+use App\Http\Controllers\Backend\ComponentsPaginationController;
+use App\Http\Controllers\Backend\ComponentsPopoverController;
+use App\Http\Controllers\Backend\ComponentsProgressController;
+use App\Http\Controllers\Backend\ComponentsSpinnerController;
+use App\Http\Controllers\Backend\ComponentsTabController;
+use App\Http\Controllers\Backend\ComponentsToastController;
+use App\Http\Controllers\Backend\ComponentsTooltipController;
+
+use App\Http\Controllers\Backend\Error503Controller;
+use App\Http\Controllers\Backend\ErrorMaintenanceController;
+use App\Http\Controllers\Backend\ErrorNotFoundController;
+
+use App\Http\Controllers\Backend\FeatureFAQController;
+use App\Http\Controllers\Backend\FeaturePostCreateController;
+use App\Http\Controllers\Backend\FeaturePostDetailController;
+use App\Http\Controllers\Backend\FeaturePostEditController;
+use App\Http\Controllers\Backend\FeatureSettingDetailController;
+use App\Http\Controllers\Backend\FeatureSettingGeneralController;
+use App\Http\Controllers\Backend\FeatureTicketController;
+
+use App\Http\Controllers\Backend\FormAdvancedFormController;
+use App\Http\Controllers\Backend\FormEditorController;
+use App\Http\Controllers\Backend\FormValidationController;
+
+use App\Http\Controllers\Backend\GmapsAdvanceRouteController;
+use App\Http\Controllers\Backend\GmapsDraggableMarkerController;
+use App\Http\Controllers\Backend\GmapsGeoJsonController;
+use App\Http\Controllers\Backend\GmapsGeolocationController;
+use App\Http\Controllers\Backend\GmapsMarkerClusterController;
+use App\Http\Controllers\Backend\GmapsMultipleMarkerController;
+use App\Http\Controllers\Backend\GmapsSimpleController;
+
+use App\Http\Controllers\Backend\IndexController;
+use App\Http\Controllers\Backend\LayoutDefaultController;
+use App\Http\Controllers\Backend\LayoutTopNavigationController;
+use App\Http\Controllers\Backend\LayoutTransparentController;
+
+use App\Http\Controllers\Backend\LogInController;
+
+use App\Http\Controllers\Backend\ModuleBasicAndModalController;
+use App\Http\Controllers\Backend\ModuleChartJsController;
+use App\Http\Controllers\Backend\ModuleDatatablesController;
+use App\Http\Controllers\Backend\ModuleFullCalendarController;
+use App\Http\Controllers\Backend\ModuleOwlCarouselController;
+use App\Http\Controllers\Backend\ModuleSweetAlertController;
+use App\Http\Controllers\Backend\ModuleToastrController;
+use App\Http\Controllers\Backend\ModuleVectorMapController;
+use App\Http\Controllers\Backend\ModulesWeatherIconController;
+
+use App\Http\Controllers\Backend\RegistrationController;
+
+use App\Http\Controllers\Backend\UtilitiesContactController;
+use App\Http\Controllers\Backend\UtilitiesInvoiceController;
+use App\Http\Controllers\Backend\UtilitiesSubscribeController;
+
 
 //use App\Http\Controllers\Backend\;
 
@@ -45,7 +142,7 @@ use App\Http\Controllers\Backend\AuthController;
 //frontend
 
 Route::get('/',[HomeController::class,'index']);
-Route::get('/signin',[LoginController::class,'index']);
+Route::get('/signin',[ForntendLoginController::class,'index']);
 Route::get('/aboutus',[AboutUsController::class,'index']);
 Route::get('/blog-grid-sidebar',[BlogGridSidebarController::class,'index']);
 Route::get('/blog-single',[BlogSingleController::class,'index']);
