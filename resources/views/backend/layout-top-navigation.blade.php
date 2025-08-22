@@ -6,7 +6,7 @@
     <div class="main-wrapper container">
       <div class="navbar-bg"></div>
       <nav class="navbar navbar-expand-lg main-navbar">
-        <a href="index.html" class="navbar-brand sidebar-gone-hide">Stisla</a>
+        <a href="{{url('/backend-index')}}" class="navbar-brand sidebar-gone-hide">Stisla</a>
         <a href="#" class="nav-link sidebar-gone-show" data-toggle="sidebar"><i class="fas fa-bars"></i></a>
         <div class="nav-collapse">
           <a class="sidebar-gone-show nav-collapse-toggle nav-link" href="#">
@@ -219,7 +219,7 @@
               <a href="features-profile.html" class="dropdown-item has-icon">
                 <i class="far fa-user"></i> Profile
               </a>
-              <a href="features-activities.html" class="dropdown-item has-icon">
+              <a href="{{url('features-activities')}}" class="dropdown-item has-icon">
                 <i class="fas fa-bolt"></i> Activities
               </a>
               <a href="features-settings.html" class="dropdown-item has-icon">

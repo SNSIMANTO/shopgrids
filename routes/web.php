@@ -86,10 +86,12 @@ use App\Http\Controllers\Backend\FeaturePostEditController;
 use App\Http\Controllers\Backend\FeatureSettingDetailController;
 use App\Http\Controllers\Backend\FeatureSettingGeneralController;
 use App\Http\Controllers\Backend\FeatureTicketController;
-
+use App\Http\Controllers\Backend\FeaturesProfileController;
+use App\Http\Controllers\Backend\FeaturesActivitiesController;
 use App\Http\Controllers\Backend\FormAdvancedFormController;
 use App\Http\Controllers\Backend\FormEditorController;
 use App\Http\Controllers\Backend\FormValidationController;
+use App\Http\Controllers\Backend\FeaturesSettingsController;
 
 use App\Http\Controllers\Backend\GmapsAdvanceRouteController;
 use App\Http\Controllers\Backend\GmapsDraggableMarkerController;
@@ -100,6 +102,7 @@ use App\Http\Controllers\Backend\GmapsMultipleMarkerController;
 use App\Http\Controllers\Backend\GmapsSimpleController;
 
 use App\Http\Controllers\Backend\IndexController;
+use App\Http\Controllers\Backend\IndexZeroController;
 use App\Http\Controllers\Backend\LayoutDefaultController;
 use App\Http\Controllers\Backend\LayoutTopNavigationController;
 use App\Http\Controllers\Backend\LayoutTransparentController;
@@ -237,6 +240,10 @@ Route::get('/feature-post-edit', [FeaturePostEditController::class, 'index']);
 Route::get('/feature-setting-detail', [FeatureSettingDetailController::class, 'index']);
 Route::get('/feature-setting-general', [FeatureSettingGeneralController::class, 'index']);
 Route::get('/feature-ticket', [FeatureTicketController::class, 'index']);
+Route::get('/feature-profile', [FeaturesProfileController::class, 'index']);
+Route::get('/feature-activities', [FeaturesActivitiesController::class, 'index']);
+Route::get('/features-settings', [FeaturesSettingsController::class, 'index']);
+
 
 Route::get('/form-advanced-form', [FormAdvancedFormController::class, 'index']);
 Route::get('/form-editor', [FormEditorController::class, 'index']);
@@ -250,7 +257,8 @@ Route::get('/gmaps-marker-cluster', [GmapsMarkerClusterController::class, 'index
 Route::get('/gmaps-multiple-marker', [GmapsMultipleMarkerController::class, 'index']);
 Route::get('/gmaps-simple', [GmapsSimpleController::class, 'index']);
 
-Route::get('/backend-index', [IndexController::class, 'index']);
+Route::get('/index', [IndexController::class, 'index']);
+Route::get('/index/zero', [IndexZeroController::class, 'index']);
 Route::get('/layout-default', [LayoutDefaultController::class, 'index']);
 Route::get('/layout-top-navigation', [LayoutTopNavigationController::class, 'index']);
 Route::get('/layout-transparent', [LayoutTransparentController::class, 'index']);
