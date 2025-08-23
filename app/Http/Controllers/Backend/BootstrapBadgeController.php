@@ -5,9 +5,9 @@ namespace App\Http\Controllers\Backend;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class FeaturesTicketsController extends Controller
+class BootstrapBadgeController extends Controller
 {
      public function index(){
-        return view('backend.features-tickets');
+        return view('backend.bootstrap-badge');
     }
 }

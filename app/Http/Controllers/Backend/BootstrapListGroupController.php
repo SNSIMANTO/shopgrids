@@ -5,9 +5,9 @@ namespace App\Http\Controllers\Backend;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class BootsrrapCarouselController extends Controller
+class BootstrapListGroupController extends Controller
 {
      public function index(){
-        return view('backend.bootstrap-carousel');
+        return view('backend.bootstrap-list-group');
     }
 }

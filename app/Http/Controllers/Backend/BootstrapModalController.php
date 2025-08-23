@@ -5,9 +5,9 @@ namespace App\Http\Controllers\Backend;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class ErrorFiveZeroThreeController extends Controller
+class BootstrapModalController extends Controller
 {
      public function index(){
-        return view('backend.errors-503');
+        return view('backend.bootstrap-modal');
     }
 }

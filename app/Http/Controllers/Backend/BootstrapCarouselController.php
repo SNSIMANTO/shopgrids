@@ -5,9 +5,9 @@ namespace App\Http\Controllers\Backend;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class BootsrrapPopoverController extends Controller
+class BootstrapCarouselController extends Controller
 {
      public function index(){
-        return view('backend.bootstrap-popover');
+        return view('backend.bootstrap-carousel');
     }
 }

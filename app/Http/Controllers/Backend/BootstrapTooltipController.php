@@ -5,9 +5,9 @@ namespace App\Http\Controllers\Backend;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class BootsrrapMediaObjectController extends Controller
+class BootstrapTooltipController extends Controller
 {
      public function index(){
-        return view('backend.bootstrap-media-object');
+        return view('backend.bootstrap-tooltip');
     }
 }

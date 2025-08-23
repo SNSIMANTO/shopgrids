@@ -5,9 +5,9 @@ namespace App\Http\Controllers\Backend;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class BootsrrapModalController extends Controller
+class BootstrapPopoverController extends Controller
 {
      public function index(){
-        return view('backend.bootstrap-modal');
+        return view('backend.bootstrap-popover');
     }
 }

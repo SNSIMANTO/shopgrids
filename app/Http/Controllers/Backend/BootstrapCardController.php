@@ -5,9 +5,9 @@ namespace App\Http\Controllers\Backend;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class BootsrrapPaginationController extends Controller
+class BootstrapCardController extends Controller
 {
      public function index(){
-        return view('backend.bootstrap-pagination');
+        return view('backend.bootstrap-card');
     }
 }

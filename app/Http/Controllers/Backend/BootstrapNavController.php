@@ -5,9 +5,9 @@ namespace App\Http\Controllers\Backend;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class BootsrrapProgressController extends Controller
+class BootstrapNavController extends Controller
 {
      public function index(){
-        return view('backend.bootstrap-progress');
+        return view('backend.bootstrap-nav');
     }
 }

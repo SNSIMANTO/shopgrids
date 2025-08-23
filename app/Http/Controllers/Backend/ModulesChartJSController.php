@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Backend;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class ModulesChartJSController extends Controller
+class ModulesChartJsController extends Controller
 {
      public function index(){
         return view('backend.modules-chartjs');

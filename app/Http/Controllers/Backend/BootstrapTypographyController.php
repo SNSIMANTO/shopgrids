@@ -5,9 +5,9 @@ namespace App\Http\Controllers\Backend;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class BootsrrapBreadcrumbController extends Controller
+class BootstrapTypographyController extends Controller
 {
      public function index(){
-        return view('backend.bootstrap-breadcrumb');
+        return view('backend.bootstrap-typography');
     }
 }
