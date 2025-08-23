@@ -60,7 +60,7 @@
                   <div class="search-icon bg-danger text-white mr-3">
                     <i class="fas fa-code"></i>
                   </div>
-                  Stisla Admin Template
+                  Shopgrid Admin Template
                 </a>
               </div>
               <div class="search-item">
@@ -190,7 +190,7 @@
                     <i class="fas fa-bell"></i>
                   </div>
                   <div class="dropdown-item-desc">
-                    Welcome to Stisla template!
+                    Welcome to Shopgrid template!
                     <div class="time">Yesterday</div>
                   </div>
                 </a>
@@ -225,10 +225,10 @@
       <div class="main-sidebar sidebar-style-2">
         <aside id="sidebar-wrapper">
           <div class="sidebar-brand">
-            <a href="{{url('/index')}}">Simanto</a>
+            <a href="{{url('/index')}}">Shopgrid</a>
           </div>
           <div class="sidebar-brand sidebar-brand-sm">
-            <a href="{{url('/index')}}">SN</a>
+            <a href="{{url('/index')}}">SG</a>
           </div>
           <ul class="sidebar-menu">
             <li class="menu-header">Dashboard</li>
@@ -274,7 +274,7 @@
                 <li><a class="nav-link" href="{{url('/bootstrap-typography')}}">Typography</a></li>
               </ul>
             </li>
-            <li class="menu-header">Simanto</li>
+            <li class="menu-header">Shopgrid</li>
             <li class="dropdown">
               <a href="#" class="nav-link has-dropdown"><i class="fas fa-th-large"></i> <span>Components</span></a>
               <ul class="dropdown-menu">

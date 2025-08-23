@@ -74,7 +74,7 @@
               Don't have an account? <a href="auth-register.html">Create One</a>
             </div>
             <div class="simple-footer">
-              Copyright &copy; Stisla 2018
+              Copyright &copy; Shopgrid 2025
             </div>
           </div>
         </div>
