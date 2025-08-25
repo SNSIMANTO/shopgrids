@@ -36,19 +36,19 @@
               </div>
               <div class="search-item">
                 <a href="#">
-                  <img class="mr-3 rounded" width="30" src="assets/img/products/product-3-50.png" alt="product">
+                  <img class="mr-3 rounded" width="30" src="backend/img/products/product-3-50.png" alt="product">
                   oPhone S9 Limited Edition
                 </a>
               </div>
               <div class="search-item">
                 <a href="#">
-                  <img class="mr-3 rounded" width="30" src="assets/img/products/product-2-50.png" alt="product">
+                  <img class="mr-3 rounded" width="30" src="backend/img/products/product-2-50.png" alt="product">
                   Drone X2 New Gen-7
                 </a>
               </div>
               <div class="search-item">
                 <a href="#">
-                  <img class="mr-3 rounded" width="30" src="assets/img/products/product-1-50.png" alt="product">
+                  <img class="mr-3 rounded" width="30" src="backend/img/products/product-1-50.png" alt="product">
                   Headphone Blitz
                 </a>
               </div>
@@ -85,7 +85,7 @@
               <div class="dropdown-list-content dropdown-list-message">
                 <a href="#" class="dropdown-item dropdown-item-unread">
                   <div class="dropdown-item-avatar">
-                    <img alt="image" src="assets/img/avatar/avatar-1.png" class="rounded-circle">
+                    <img alt="image" src="backend/img/avatar/avatar-1.png" class="rounded-circle">
                     <div class="is-online"></div>
                   </div>
                   <div class="dropdown-item-desc">
@@ -96,7 +96,7 @@
                 </a>
                 <a href="#" class="dropdown-item dropdown-item-unread">
                   <div class="dropdown-item-avatar">
-                    <img alt="image" src="assets/img/avatar/avatar-2.png" class="rounded-circle">
+                    <img alt="image" src="backend/img/avatar/avatar-2.png" class="rounded-circle">
                   </div>
                   <div class="dropdown-item-desc">
                     <b>Dedik Sugiharto</b>
@@ -106,7 +106,7 @@
                 </a>
                 <a href="#" class="dropdown-item dropdown-item-unread">
                   <div class="dropdown-item-avatar">
-                    <img alt="image" src="assets/img/avatar/avatar-3.png" class="rounded-circle">
+                    <img alt="image" src="backend/img/avatar/avatar-3.png" class="rounded-circle">
                     <div class="is-online"></div>
                   </div>
                   <div class="dropdown-item-desc">
@@ -117,7 +117,7 @@
                 </a>
                 <a href="#" class="dropdown-item">
                   <div class="dropdown-item-avatar">
-                    <img alt="image" src="assets/img/avatar/avatar-4.png" class="rounded-circle">
+                    <img alt="image" src="backend/img/avatar/avatar-4.png" class="rounded-circle">
                   </div>
                   <div class="dropdown-item-desc">
                     <b>Ardian Rahardiansyah</b>
@@ -127,7 +127,7 @@
                 </a>
                 <a href="#" class="dropdown-item">
                   <div class="dropdown-item-avatar">
-                    <img alt="image" src="assets/img/avatar/avatar-5.png" class="rounded-circle">
+                    <img alt="image" src="backend/img/avatar/avatar-5.png" class="rounded-circle">
                   </div>
                   <div class="dropdown-item-desc">
                     <b>Alfa Zulkarnain</b>
@@ -201,17 +201,17 @@
             </div>
           </li>
           <li class="dropdown"><a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg nav-link-user">
-            <img alt="image" src="assets/img/avatar/avatar-1.png" class="rounded-circle mr-1">
+            <img alt="image" src="backend/img/avatar/avatar-1.png" class="rounded-circle mr-1">
             <div class="d-sm-none d-lg-inline-block">Hi, Ujang Maman</div></a>
             <div class="dropdown-menu dropdown-menu-right">
               <div class="dropdown-title">Logged in 5 min ago</div>
-              <a href="features-profile.html" class="dropdown-item has-icon">
+              <a href="{{url('/features-profile')}}" class="dropdown-item has-icon">
                 <i class="far fa-user"></i> Profile
               </a>
-              <a href="features-activities.html" class="dropdown-item has-icon">
+              <a href="{{url('/features-activities')}}" class="dropdown-item has-icon">
                 <i class="fas fa-bolt"></i> Activities
               </a>
-              <a href="features-settings.html" class="dropdown-item has-icon">
+              <a href="{{url('/features-settings')}}" class="dropdown-item has-icon">
                 <i class="fas fa-cog"></i> Settings
               </a>
               <div class="dropdown-divider"></div>
@@ -225,18 +225,18 @@
       <div class="main-sidebar sidebar-style-2">
         <aside id="sidebar-wrapper">
           <div class="sidebar-brand">
-            <a href="index.html">Stisla</a>
+            <a href="{{url('/index')}}">Stisla</a>
           </div>
           <div class="sidebar-brand sidebar-brand-sm">
-            <a href="index.html">St</a>
+            <a href="{{url('/index')}}">St</a>
           </div>
           <ul class="sidebar-menu">
             <li class="menu-header">Dashboard</li>
             <li class="dropdown active">
               <a href="#" class="nav-link has-dropdown"><i class="fas fa-fire"></i><span>Dashboard</span></a>
               <ul class="dropdown-menu">
-                <li><a class="nav-link" href="index-0.html">General Dashboard</a></li>
-                <li class=active><a class="nav-link" href="index.html">Ecommerce Dashboard</a></li>
+                <li><a class="nav-link" href="{{url('/index/zero')}}">General Dashboard</a></li>
+                <li class=active><a class="nav-link" href="{{url('/index')}}">Ecommerce Dashboard</a></li>
               </ul>
             </li>
             <li class="menu-header">Starter</li>
@@ -252,116 +252,115 @@
             <li class="dropdown">
               <a href="#" class="nav-link has-dropdown"><i class="fas fa-th"></i> <span>Bootstrap</span></a>
               <ul class="dropdown-menu">
-                <li><a class="nav-link" href="bootstrap-alert.html">Alert</a></li>
-                <li><a class="nav-link" href="bootstrap-badge.html">Badge</a></li>
-                <li><a class="nav-link" href="bootstrap-breadcrumb.html">Breadcrumb</a></li>
-                <li><a class="nav-link" href="bootstrap-buttons.html">Buttons</a></li>
-                <li><a class="nav-link" href="bootstrap-card.html">Card</a></li>
-                <li><a class="nav-link" href="bootstrap-carousel.html">Carousel</a></li>
-                <li><a class="nav-link" href="bootstrap-collapse.html">Collapse</a></li>
-                <li><a class="nav-link" href="bootstrap-dropdown.html">Dropdown</a></li>
-                <li><a class="nav-link" href="bootstrap-form.html">Form</a></li>
-                <li><a class="nav-link" href="bootstrap-list-group.html">List Group</a></li>
-                <li><a class="nav-link" href="bootstrap-media-object.html">Media Object</a></li>
-                <li><a class="nav-link" href="bootstrap-modal.html">Modal</a></li>
-                <li><a class="nav-link" href="bootstrap-nav.html">Nav</a></li>
-                <li><a class="nav-link" href="bootstrap-navbar.html">Navbar</a></li>
-                <li><a class="nav-link" href="bootstrap-pagination.html">Pagination</a></li>
-                <li><a class="nav-link" href="bootstrap-popover.html">Popover</a></li>
-                <li><a class="nav-link" href="bootstrap-progress.html">Progress</a></li>
-                <li><a class="nav-link" href="bootstrap-table.html">Table</a></li>
-                <li><a class="nav-link" href="bootstrap-tooltip.html">Tooltip</a></li>
-                <li><a class="nav-link" href="bootstrap-typography.html">Typography</a></li>
+                <li><a class="nav-link" href="{{url('/bootstrap-alert')}}">Alert</a></li>
+                <li><a class="nav-link" href="{{url('/bootstrap-badge')}}">Badge</a></li>
+                <li><a class="nav-link" href="{{url('/bootstrap-breadcrumb')}}">Breadcrumb</a></li>
+                <li><a class="nav-link" href="{{url('/bootstrap-button')}}">Buttons</a></li>
+                <li><a class="nav-link" href="{{url('/bootstrap-card')}}">Card</a></li>
+                <li><a class="nav-link" href="{{url('/bootstrap-carousel')}}">Carousel</a></li>
+                <li><a class="nav-link" href="{{url('/bootstrap-collapse')}}">Collapse</a></li>
+                <li><a class="nav-link" href="{{url('/bootstrap-dropdown')}}">Dropdown</a></li>
+                <li><a class="nav-link" href="{{url('/bootstrap-form')}}">Form</a></li>
+                <li><a class="nav-link" href="{{url('/bootstrap-list-group')}}">List Group</a></li>
+                <li><a class="nav-link" href="{{url('/bootstrap-media-object')}}">Media Object</a></li>
+                <li><a class="nav-link" href="{{url('/bootstrap-modal')}}">Modal</a></li>
+                <li><a class="nav-link" href="{{url('/bootstrap-nav')}}">Nav</a></li>
+                <li><a class="nav-link" href="{{url('/bootstrap-navbar')}}">Navbar</a></li>
+                <li><a class="nav-link" href="{{url('/bootstrap-pagination')}}">Pagination</a></li>
+                <li><a class="nav-link" href="{{url('/bootstrap-popover')}}">Popover</a></li>
+                <li><a class="nav-link" href="{{url('/bootstrap-progress')}}">Progress</a></li>
+                <li><a class="nav-link" href="{{url('/bootstrap-table')}}">Table</a></li>
+                <li><a class="nav-link" href="{{url('/bootstrap-tooltip')}}">Tooltip</a></li>
+                <li><a class="nav-link" href="{{url('/bootstrap-typography')}}">Typography</a></li>
               </ul>
             </li>
             <li class="menu-header">Stisla</li>
             <li class="dropdown">
               <a href="#" class="nav-link has-dropdown"><i class="fas fa-th-large"></i> <span>Components</span></a>
               <ul class="dropdown-menu">
-                <li><a class="nav-link" href="components-article.html">Article</a></li>                <li><a class="nav-link beep beep-sidebar" href="components-avatar.html">Avatar</a></li>                <li><a class="nav-link" href="components-chat-box.html">Chat Box</a></li>                <li><a class="nav-link beep beep-sidebar" href="components-empty-state.html">Empty State</a></li>                <li><a class="nav-link" href="components-gallery.html">Gallery</a></li>
-                <li><a class="nav-link beep beep-sidebar" href="components-hero.html">Hero</a></li>                <li><a class="nav-link" href="components-multiple-upload.html">Multiple Upload</a></li>
-                <li><a class="nav-link beep beep-sidebar" href="components-pricing.html">Pricing</a></li>                <li><a class="nav-link" href="components-statistic.html">Statistic</a></li>                <li><a class="nav-link" href="components-tab.html">Tab</a></li>
-                <li><a class="nav-link" href="components-table.html">Table</a></li>
-                <li><a class="nav-link" href="components-user.html">User</a></li>                <li><a class="nav-link beep beep-sidebar" href="components-wizard.html">Wizard</a></li>              </ul>
+                <li><a class="nav-link" href="{{url('/components-article')}}">Article</a></li>                <li><a class="nav-link beep beep-sidebar" href="{{url('/components-avatar')}}">Avatar</a></li>                <li><a class="nav-link" href="{{url('components-chat-box')}}">Chat Box</a></li>                <li><a class="nav-link beep beep-sidebar" href="{{Url('/components-empty-state')}}">Empty State</a></li>                <li><a class="nav-link" href="{{url('/components-gallery')}}">Gallery</a></li>
+                <li><a class="nav-link beep beep-sidebar" href="{{url('/components-hero')}}">Hero</a></li>                <li><a class="nav-link" href="{{url('/components-multiple-upload')}}">Multiple Upload</a></li>
+                <li><a class="nav-link beep beep-sidebar" href="{{url('/components-pricing')}}">Pricing</a></li>                <li><a class="nav-link" href="{{url('/components-statistic')}}">Statistic</a></li>                <li><a class="nav-link" href="{{url('/components-tab')}}">Tab</a></li>
+                <li><a class="nav-link" href="{{url('/components-table')}}">Table</a></li>
+                <li><a class="nav-link" href="{{url('/components-user')}}">User</a></li>                <li><a class="nav-link beep beep-sidebar" href="{{url('/components-wizerd')}}">Wizard</a></li>              </ul>
             </li>
             <li class="dropdown">
               <a href="#" class="nav-link has-dropdown"><i class="far fa-file-alt"></i> <span>Forms</span></a>
               <ul class="dropdown-menu">
-                <li><a class="nav-link" href="forms-advanced-form.html">Advanced Form</a></li>
-                <li><a class="nav-link" href="forms-editor.html">Editor</a></li>
-                <li><a class="nav-link" href="forms-validation.html">Validation</a></li>
+                <li><a class="nav-link" href="{{url('/form-advanced-form')}}">Advanced Form</a></li>
+                <li><a class="nav-link" href="{{url('/form-editor')}}">Editor</a></li>
+                <li><a class="nav-link" href="{{url('/form-validation')}}">Validation</a></li>
               </ul>
             </li>
             <li class="dropdown">
               <a href="#" class="nav-link has-dropdown"><i class="fas fa-map-marker-alt"></i> <span>Google Maps</span></a>
               <ul class="dropdown-menu">
-                <li><a href="gmaps-advanced-route.html">Advanced Route</a></li>
-                <li><a href="gmaps-draggable-marker.html">Draggable Marker</a></li>
-                <li><a href="gmaps-geocoding.html">Geocoding</a></li>
-                <li><a href="gmaps-geolocation.html">Geolocation</a></li>
-                <li><a href="gmaps-marker.html">Marker</a></li>
-                <li><a href="gmaps-multiple-marker.html">Multiple Marker</a></li>
-                <li><a href="gmaps-route.html">Route</a></li>
-                <li><a href="gmaps-simple.html">Simple</a></li>
+                <li><a href="{{url('/gmaps-advance-route')}}">Advanced Route</a></li>
+                <li><a href="{{url('/gmaps-draggable-marker')}}">Draggable Marker</a></li>
+                <li><a href="{{url('/gmaps-geo-coding')}}">Geocoding</a></li>
+                <li><a href="{{url('/gmaps-geolocation')}}">Geolocation</a></li>
+                <li><a href="{{url('/gmaps-marker')}}">Marker</a></li>
+                <li><a href="{{url('/gmaps-multiple-marker')}}">Multiple Marker</a></li>
+                <li><a href="{{url('/gmaps-route')}}">Route</a></li>
+                <li><a href="{{url('/gmaps-simple')}}">Simple</a></li>
               </ul>
             </li>            <li class="dropdown">
               <a href="#" class="nav-link has-dropdown"><i class="fas fa-plug"></i> <span>Modules</span></a>
               <ul class="dropdown-menu">
-                <li><a class="nav-link" href="modules-calendar.html">Calendar</a></li>
-                <li><a class="nav-link" href="modules-chartjs.html">ChartJS</a></li>
-                <li><a class="nav-link" href="modules-datatables.html">DataTables</a></li>
-                <li><a class="nav-link" href="modules-flag.html">Flag</a></li>
-                <li><a class="nav-link" href="modules-font-awesome.html">Font Awesome</a></li>
-                <li><a class="nav-link" href="modules-ion-icons.html">Ion Icons</a></li>
-                <li><a class="nav-link" href="modules-owl-carousel.html">Owl Carousel</a></li>
-                <li><a class="nav-link" href="modules-sparkline.html">Sparkline</a></li>
-                <li><a class="nav-link" href="modules-sweet-alert.html">Sweet Alert</a></li>
-                <li><a class="nav-link" href="modules-toastr.html">Toastr</a></li>
-                <li><a class="nav-link" href="modules-vector-map.html">Vector Map</a></li>
-                <li><a class="nav-link" href="modules-weather-icon.html">Weather Icon</a></li>
+                <li><a class="nav-link" href="{{url('/modules-calendar')}}">Calendar</a></li>
+                <li><a class="nav-link" href="{{url('/modules-chart-js')}}">ChartJS</a></li>
+                <li><a class="nav-link" href="{{url('/modules-datatable')}}">DataTables</a></li>
+                <li><a class="nav-link" href="{{url('/modules-flag')}}">Flag</a></li>
+                <li><a class="nav-link" href="{{url('/modules-font')}}">Font Awesome</a></li>
+                <li><a class="nav-link" href="{{url('/modules-ion-icon')}}">Ion Icons</a></li>
+                <li><a class="nav-link" href="{{url('/modules-owl-carousel')}}">Owl Carousel</a></li>
+                <li><a class="nav-link" href="{{url('/modules-sparkline')}}">Sparkline</a></li>
+                <li><a class="nav-link" href="{{url('/modules-sweet-alert')}}">Sweet Alert</a></li>
+                <li><a class="nav-link" href="{{url('/modules-toastr')}}">Toastr</a></li>
+                <li><a class="nav-link" href="{{url('/modules-vector-map')}}">Vector Map</a></li>
+                <li><a class="nav-link" href="{{url('/modules-weather-icon')}}">Weather Icon</a></li>
               </ul>
             </li>
             <li class="menu-header">Pages</li>
             <li class="dropdown">
               <a href="#" class="nav-link has-dropdown"><i class="far fa-user"></i> <span>Auth</span></a>
               <ul class="dropdown-menu">
-                <li><a href="auth-forgot-password.html">Forgot Password</a></li>
-                <li><a href="auth-login.html">Login</a></li>
-                <li><a href="auth-register.html">Register</a></li>
-                <li><a href="auth-reset-password.html">Reset Password</a></li>
+                <li><a href="{{url('/auth-forgot-password')}}">Forgot Password</a></li>
+                <li><a href="{{url('/auth-login')}}">Login</a></li>
+                <li><a href="{{url('/auth-register')}}">Register</a></li>
+                <li><a href="{{url('/auth-reset')}}">Reset Password</a></li>
               </ul>
             </li>
             <li class="dropdown">
               <a href="#" class="nav-link has-dropdown"><i class="fas fa-exclamation"></i> <span>Errors</span></a>
               <ul class="dropdown-menu">
-                <li><a class="nav-link" href="errors-503.html">503</a></li>
-                <li><a class="nav-link" href="errors-403.html">403</a></li>
-                <li><a class="nav-link" href="errors-404.html">404</a></li>
-                <li><a class="nav-link" href="errors-500.html">500</a></li>
+                <li><a class="nav-link" href="{{url('/error-503')}}">503</a></li>
+                <li><a class="nav-link" href="{{url('/error-403')}}">403</a></li>
+                <li><a class="nav-link" href="{{url('/error-404')}}">404</a></li>
+                <li><a class="nav-link" href="{{url('/error-500')}}">500</a></li>
               </ul>
             </li>
             <li class="dropdown">
               <a href="#" class="nav-link has-dropdown"><i class="fas fa-bicycle"></i> <span>Features</span></a>
               <ul class="dropdown-menu">
-                <li><a class="nav-link" href="features-activities.html">Activities</a></li>
-                <li><a class="nav-link" href="features-post-create.html">Post Create</a></li>
-                <li><a class="nav-link" href="features-posts.html">Posts</a></li>
-                <li><a class="nav-link" href="features-profile.html">Profile</a></li>
-                <li><a class="nav-link" href="features-settings.html">Settings</a></li>
-                <li><a class="nav-link" href="features-setting-detail.html">Setting Detail</a></li>
-                <li><a class="nav-link" href="features-tickets.html">Tickets</a></li>
+                <li><a class="nav-link" href="{{url('/features-activities')}}">Activities</a></li>
+                <li><a class="nav-link" href="{{url('/features-post-create')}}">Post Create</a></li>
+                <li><a class="nav-link" href="{{url('features-post')}}">Posts</a></li>
+                <li><a class="nav-link" href="{{url('/features-profile')}}">Profile</a></li>
+                <li><a class="nav-link" href="{{url('/features-settings')}}">Settings</a></li>
+                <li><a class="nav-link" href="{{url('/features-setting-detail')}}">Setting Detail</a></li>
+                <li><a class="nav-link" href="{{url('/features-ticket')}}">Tickets</a></li>
               </ul>
             </li>
             <li class="dropdown">
               <a href="#" class="nav-link has-dropdown"><i class="fas fa-ellipsis-h"></i> <span>Utilities</span></a>
               <ul class="dropdown-menu">
-                <li><a href="utilities-contact.html">Contact</a></li>
-                <li><a class="nav-link" href="utilities-invoice.html">Invoice</a></li>
-                <li><a href="utilities-subscribe.html">Subscribe</a></li>
+                <li><a href="{{url('/utilities-contact')}}">Contact</a></li>
+                <li><a class="nav-link" href="{{url('/utilities-invoice')}}">Invoice</a></li>
+                <li><a href="{{url('/utilities-subscribe')}}">Subscribe</a></li>
               </ul>
-            </li>            <li><a class="nav-link" href="credits.html"><i class="fas fa-pencil-ruler"></i> <span>Credits</span></a></li>
+            </li>            <li><a class="nav-link" href="{{url('/credits')}}"><i class="fas fa-pencil-ruler"></i> <span>Credits</span></a></li>
           </ul>
-
           <div class="mt-4 mb-4 p-3 hide-sidebar-mini">
             <a href="https://getstisla.com/docs" class="btn btn-primary btn-lg btn-block btn-icon-split">
               <i class="fas fa-rocket"></i> Documentation
@@ -507,7 +506,7 @@
                       </div>
                     </li>
                     <li class="media">
-                      <img class="mr-3 rounded" width="55" src="assets/img/products/product-4-50.png" alt="product">
+                      <img class="mr-3 rounded" width="55" src="backend/img/products/product-4-50.png" alt="product">
                       <div class="media-body">
                         <div class="float-right"><div class="font-weight-600 text-muted text-small">67 Sales</div></div>
                         <div class="media-title">iBook Pro 2018</div>
@@ -524,7 +523,7 @@
                       </div>
                     </li>
                     <li class="media">
-                      <img class="mr-3 rounded" width="55" src="assets/img/products/product-1-50.png" alt="product">
+                      <img class="mr-3 rounded" width="55" src="backend/img/products/product-1-50.png" alt="product">
                       <div class="media-body">
                         <div class="float-right"><div class="font-weight-600 text-muted text-small">63 Sales</div></div>
                         <div class="media-title">Headphone Blitz</div>
@@ -541,7 +540,7 @@
                       </div>
                     </li>
                     <li class="media">
-                      <img class="mr-3 rounded" width="55" src="assets/img/products/product-3-50.png" alt="product">
+                      <img class="mr-3 rounded" width="55" src="backend/img/products/product-3-50.png" alt="product">
                       <div class="media-body">
                         <div class="float-right"><div class="font-weight-600 text-muted text-small">28 Sales</div></div>
                         <div class="media-title">oPhone X Lite</div>
@@ -558,7 +557,7 @@
                       </div>
                     </li>
                     <li class="media">
-                      <img class="mr-3 rounded" width="55" src="assets/img/products/product-5-50.png" alt="product">
+                      <img class="mr-3 rounded" width="55" src="backend/img/products/product-5-50.png" alt="product">
                       <div class="media-body">
                         <div class="float-right"><div class="font-weight-600 text-muted text-small">19 Sales</div></div>
                         <div class="media-title">Old Camera</div>
@@ -600,7 +599,7 @@
                     <div>
                       <div class="product-item pb-3">
                         <div class="product-image">
-                          <img alt="image" src="assets/img/products/product-4-50.png" class="img-fluid">
+                          <img alt="image" src="backend/img/products/product-4-50.png" class="img-fluid">
                         </div>
                         <div class="product-details">
                           <div class="product-name">iBook Pro 2018</div>
@@ -621,7 +620,7 @@
                     <div>
                       <div class="product-item">
                         <div class="product-image">
-                          <img alt="image" src="assets/img/products/product-3-50.png" class="img-fluid">
+                          <img alt="image" src="backend/img/products/product-3-50.png" class="img-fluid">
                         </div>
                         <div class="product-details">
                           <div class="product-name">oPhone S9 Limited</div>
@@ -642,7 +641,7 @@
                     <div>
                       <div class="product-item">
                         <div class="product-image">
-                          <img alt="image" src="assets/img/products/product-1-50.png" class="img-fluid">
+                          <img alt="image" src="backend/img/products/product-1-50.png" class="img-fluid">
                         </div>
                         <div class="product-details">
                           <div class="product-name">Headphone Blitz</div>
@@ -675,21 +674,21 @@
                       <div class="text-title mb-2">July</div>
                       <ul class="list-unstyled list-unstyled-border list-unstyled-noborder mb-0">
                         <li class="media">
-                          <img class="img-fluid mt-1 img-shadow" src="assets/modules/flag-icon-css/flags/4x3/id.svg" alt="image" width="40">
+                          <img class="img-fluid mt-1 img-shadow" src="backend/modules/flag-icon-css/flags/4x3/id.svg" alt="image" width="40">
                           <div class="media-body ml-3">
                             <div class="media-title">Indonesia</div>
                             <div class="text-small text-muted">3,282 <i class="fas fa-caret-down text-danger"></i></div>
                           </div>
                         </li>
                         <li class="media">
-                          <img class="img-fluid mt-1 img-shadow" src="assets/modules/flag-icon-css/flags/4x3/my.svg" alt="image" width="40">
+                          <img class="img-fluid mt-1 img-shadow" src="backend/modules/flag-icon-css/flags/4x3/my.svg" alt="image" width="40">
                           <div class="media-body ml-3">
                             <div class="media-title">Malaysia</div>
                             <div class="text-small text-muted">2,976 <i class="fas fa-caret-down text-danger"></i></div>
                           </div>
                         </li>
                         <li class="media">
-                          <img class="img-fluid mt-1 img-shadow" src="assets/modules/flag-icon-css/flags/4x3/us.svg" alt="image" width="40">
+                          <img class="img-fluid mt-1 img-shadow" src="backend/modules/flag-icon-css/flags/4x3/us.svg" alt="image" width="40">
                           <div class="media-body ml-3">
                             <div class="media-title">United States</div>
                             <div class="text-small text-muted">1,576 <i class="fas fa-caret-up text-success"></i></div>
@@ -701,21 +700,21 @@
                       <div class="text-title mb-2">August</div>
                       <ul class="list-unstyled list-unstyled-border list-unstyled-noborder mb-0">
                         <li class="media">
-                          <img class="img-fluid mt-1 img-shadow" src="assets/modules/flag-icon-css/flags/4x3/id.svg" alt="image" width="40">
+                          <img class="img-fluid mt-1 img-shadow" src="backend/modules/flag-icon-css/flags/4x3/id.svg" alt="image" width="40">
                           <div class="media-body ml-3">
                             <div class="media-title">Indonesia</div>
                             <div class="text-small text-muted">3,486 <i class="fas fa-caret-up text-success"></i></div>
                           </div>
                         </li>
                         <li class="media">
-                          <img class="img-fluid mt-1 img-shadow" src="assets/modules/flag-icon-css/flags/4x3/ps.svg" alt="image" width="40">
+                          <img class="img-fluid mt-1 img-shadow" src="backend/modules/flag-icon-css/flags/4x3/ps.svg" alt="image" width="40">
                           <div class="media-body ml-3">
                             <div class="media-title">Palestine</div>
                             <div class="text-small text-muted">3,182 <i class="fas fa-caret-up text-success"></i></div>
                           </div>
                         </li>
                         <li class="media">
-                          <img class="img-fluid mt-1 img-shadow" src="assets/modules/flag-icon-css/flags/4x3/de.svg" alt="image" width="40">
+                          <img class="img-fluid mt-1 img-shadow" src="backend/modules/flag-icon-css/flags/4x3/de.svg" alt="image" width="40">
                           <div class="media-body ml-3">
                             <div class="media-title">Germany</div>
                             <div class="text-small text-muted">2,317 <i class="fas fa-caret-down text-danger"></i></div>
@@ -838,7 +837,7 @@
                         <div>6 hours ago</div>
                       </div>
                     </a>
-                    <a href="features-tickets.html" class="ticket-item ticket-more">
+                    <a href="{{url('/features-ticket')}}" class="ticket-item ticket-more">
                       View All <i class="fas fa-chevron-right"></i>
                     </a>
                   </div>
@@ -852,27 +851,27 @@
   </div>
 
   <!-- General JS Scripts -->
-  <script src="assets/modules/jquery.min.js"></script>
-  <script src="assets/modules/popper.js"></script>
-  <script src="assets/modules/tooltip.js"></script>
-  <script src="assets/modules/bootstrap/js/bootstrap.min.js"></script>
-  <script src="assets/modules/nicescroll/jquery.nicescroll.min.js"></script>
-  <script src="assets/modules/moment.min.js"></script>
-  <script src="assets/js/stisla.js"></script>
+  <script src="backend/modules/jquery.min.js"></script>
+  <script src="backend/modules/popper.js"></script>
+  <script src="backend/modules/tooltip.js"></script>
+  <script src="backend/modules/bootstrap/js/bootstrap.min.js"></script>
+  <script src="backend/modules/nicescroll/jquery.nicescroll.min.js"></script>
+  <script src="backend/modules/moment.min.js"></script>
+  <script src="backend/js/stisla.js"></script>
 
   <!-- JS Libraies -->
-  <script src="assets/modules/jquery.sparkline.min.js"></script>
-  <script src="assets/modules/chart.min.js"></script>
-  <script src="assets/modules/owlcarousel2/dist/owl.carousel.min.js"></script>
-  <script src="assets/modules/summernote/summernote-bs4.js"></script>
-  <script src="assets/modules/chocolat/dist/js/jquery.chocolat.min.js"></script>
+  <script src="backend/modules/jquery.sparkline.min.js"></script>
+  <script src="backend/modules/chart.min.js"></script>
+  <script src="backend/modules/owlcarousel2/dist/owl.carousel.min.js"></script>
+  <script src="backend/modules/summernote/summernote-bs4.js"></script>
+  <script src="backend/modules/chocolat/dist/js/jquery.chocolat.min.js"></script>
 
   <!-- Page Specific JS File -->
-  <script src="assets/js/page/index.js"></script>
+  <script src="backend/js/page/index.js"></script>
 
   <!-- Template JS File -->
-  <script src="assets/js/scripts.js"></script>
-  <script src="assets/js/custom.js"></script>
+  <script src="backend/js/scripts.js"></script>
+  <script src="backend/js/custom.js"></script>
 </body>
 </html>
 @endsection

@@ -263,7 +263,7 @@ Route::get('/layout-default', [LayoutDefaultController::class, 'index']);
 Route::get('/layout-top-navigation', [LayoutTopNavigationController::class, 'index']);
 Route::get('/layout-transparent', [LayoutTransparentController::class, 'index']);
 
-Route::get('/login', [LoginController::class, 'index']);
+// Route::get('/login', [LoginController::class, 'index']);
 
 Route::get('/modules-calendar', [ModulesCalendarController::class, 'index']);
 Route::get('/modules-chart-js', [ModulesChartJsController::class, 'index']);
@@ -278,7 +278,7 @@ Route::get('/modules-toastr', [ModulesToastrController::class, 'index']);
 Route::get('/modules-vector-map', [ModulesVectorMapController::class, 'index']);
 Route::get('/modules-weather-icon', [ModulesWeatherIconController::class, 'index']);
 
-Route::get('/registration', [RegistrationController::class, 'index']);
+// Route::get('/registration', [RegistrationController::class, 'index']);
 
 Route::get('/utilities-contact', [UtilitiesContactController::class, 'index']);
 Route::get('/utilities-invoice', [UtilitiesInvoiceController::class, 'index']);
